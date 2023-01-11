@@ -20,14 +20,14 @@ export default function Footer() {
               <div class="col-lg-3 col-md-6 footer-contact">
                 <h3>GNLIFE</h3>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022
+                  Adekunle Plaza, shop 24 <br />
+                  Opposite Futa North Gate, Akure
                   <br />
-                  United States <br />
+                  Ondo State. <br />
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Phone:</strong> +234 806 5109 765
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Email:</strong> greenlifeinfoteam@gmail.com
                   <br />
                 </p>
               </div>
@@ -36,21 +36,17 @@ export default function Footer() {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                    <i class="bx bx-chevron-right"></i> <a href="/students#">Home</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                    <i class="bx bx-chevron-right"></i> <a href="/about#">About us</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
-                  </li>
-                  <li>
-                    <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Terms of service</a>
+                    <i class="bx bx-chevron-right"></i> <a href="/courses#">Courses</a>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Privacy policy</a>
+                    <a href="/trainers#">Trainers</a>
                   </li>
                 </ul>
               </div>
@@ -60,23 +56,19 @@ export default function Footer() {
                 <ul>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Web Design</a>
+                    <a href="/courses">Web Development</a>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Web Development</a>
+                    <a href="/courses">Digital Designs</a>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Product Management</a>
+                    <a href="/courses">Video Editing</a>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Graphic Design</a>
+                    <a href="/courses">Data Analytics</a>
                   </li>
                 </ul>
               </div>
@@ -84,8 +76,7 @@ export default function Footer() {
               <div class="col-lg-4 col-md-6 footer-newsletter">
                 <h4>Join Our Newsletter</h4>
                 <p>
-                  Tamen quem nulla quae legam multos aute sint culpa legam
-                  noster magna
+                  Be the first to receive our latest news via email.
                 </p>
                 <form action="" method="post">
                   <input type="email" name="email" />
@@ -101,7 +92,7 @@ export default function Footer() {
             <div class="copyright">
               &copy; Copyright{" "}
               <strong>
-                <span>Mentor</span>
+                <span>GNLIFE</span>
               </strong>
               . All Rights Reserved
             </div>

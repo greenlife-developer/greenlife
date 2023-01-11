@@ -22,9 +22,7 @@ export default function Trainers() {
           <div class="container">
             <h2>Trainers</h2>
             <p>
-              Est dolorum ut non facere possimus quibusdam eligendi voluptatem.
-              Quia id aut similique quia voluptas sit quaerat debitis. Rerum
-              omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.{" "}
+              Our Trainers are professionals in their various fields {" "}
             </p>
           </div>
         </div>
