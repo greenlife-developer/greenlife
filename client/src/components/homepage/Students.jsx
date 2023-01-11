@@ -34,7 +34,7 @@ export default function Students() {
           <h2>
             We are team of talented designers making websites with Bootstrap
           </h2>
-          <a href="courses.html" class="btn-get-started">
+          <a href="https://forms.gle/gKovAv6h6rNu8zCM6" target="_blank" class="btn-get-started">
             Get Started
           </a>
         </div>
