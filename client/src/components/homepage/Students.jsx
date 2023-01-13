@@ -37,7 +37,7 @@ export default function Students() {
             Leading Tomorrow
           </h1>
           <h2>
-            We are team of talented designers making websites with Bootstrap
+            We are team of developers training young children to code.
           </h2>
           <a href="https://forms.gle/gKovAv6h6rNu8zCM6" target="_blank" class="btn-get-started">
             Get Started

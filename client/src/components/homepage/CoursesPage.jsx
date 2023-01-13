@@ -22,15 +22,16 @@ export default function CoursesPage() {
                 <div class="course-content">
                   <div class="d-flex justify-content-between align-items-center mb-3">
                     <h4>Web Development</h4>
-                    <p class="price">$169</p>
+                    <p class="price">#120,000</p>
                   </div>
 
                   <h3>
-                    <a href="course-details.html">Website Design</a>
+                    <a href="course-details.html">Website Development</a>
                   </h3>
                   <p>
-                    Et architecto provident deleniti facere repellat nobis iste.
-                    Id facere quia quae dolores dolorem tempore.
+                    Enroll for our six months curriculum, to learn HTML,
+                    CSS(grid and flexbox), Javascript, git and github, and
+                    hosting a static website
                   </p>
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
@@ -39,11 +40,11 @@ export default function CoursesPage() {
                         class="img-fluid"
                         alt=""
                       />
-                      <span>Antonio</span>
+                      <span>Afolabi Opeyemi</span>
                     </div>
                     <div class="trainer-rank d-flex align-items-center">
-                      <i class="bx bx-user"></i>&nbsp;50 &nbsp;&nbsp;
-                      <i class="bx bx-heart"></i>&nbsp;65
+                      <i class="bx bx-user"></i>&nbsp;10 &nbsp;&nbsp;
+                      <i class="bx bx-heart"></i>&nbsp;15
                     </div>
                   </div>
                 </div>
@@ -60,16 +61,17 @@ export default function CoursesPage() {
                 />
                 <div class="course-content">
                   <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h4>Marketing</h4>
-                    <p class="price">$250</p>
+                    <h4>Video Editing</h4>
+                    <p class="price">#100,000</p>
                   </div>
 
                   <h3>
-                    <a href="course-details.html">Search Engine Optimization</a>
+                    <a href="course-details.html">Video Editing</a>
                   </h3>
                   <p>
-                    Et architecto provident deleniti facere repellat nobis iste.
-                    Id facere quia quae dolores dolorem tempore.
+                    Are you wanting to make more professional, unique,
+                    memorable, engaging, and impressive videos? Perfect! You've
+                    made it to the right video editing course!
                   </p>
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
@@ -78,11 +80,11 @@ export default function CoursesPage() {
                         class="img-fluid"
                         alt=""
                       />
-                      <span>Lana</span>
+                      <span>Barrister Efosa</span>
                     </div>
                     <div class="trainer-rank d-flex align-items-center">
-                      <i class="bx bx-user"></i>&nbsp;35 &nbsp;&nbsp;
-                      <i class="bx bx-heart"></i>&nbsp;42
+                      <i class="bx bx-user"></i>&nbsp;15 &nbsp;&nbsp;
+                      <i class="bx bx-heart"></i>&nbsp;54
                     </div>
                   </div>
                 </div>
@@ -99,16 +101,53 @@ export default function CoursesPage() {
                 />
                 <div class="course-content">
                   <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h4>Content</h4>
-                    <p class="price">$180</p>
+                    <h4>Data Analytics</h4>
+                    <p class="price">#120,000</p>
                   </div>
 
                   <h3>
-                    <a href="course-details.html">Copywriting</a>
+                    <a href="course-details.html">Data Analytics</a>
                   </h3>
                   <p>
-                    Et architecto provident deleniti facere repellat nobis iste.
-                    Id facere quia quae dolores dolorem tempore.
+                    Basic / intermediate experience with Microsoft Excel or
+                    another spreadsheet software (common functions, vlookups,
+                    Pivot Tables etc). Strong knowledge of data types (strings,
+                    integers, floating points, booleans) etc
+                  </p>
+                  <div class="trainer d-flex justify-content-between align-items-center">
+                    <div class="trainer-profile d-flex align-items-center">
+                      {/* <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="" > */}
+                      <span>Brandon</span>
+                    </div>
+                    <div class="trainer-rank d-flex align-items-center">
+                      <i class="bx bx-user"></i>&nbsp;20 &nbsp;&nbsp;
+                      <i class="bx bx-heart"></i>&nbsp;85
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="course-item">
+                <img
+                  src="assets/img/course-4.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Digital Designs</h4>
+                    <p class="price">#120,000</p>
+                  </div>
+
+                  <h3>
+                    <a href="course-details.html">Digital Designs</a>
+                  </h3>
+                  <p>
+                    The Ultimate Graphic Design Course Which Covers Photoshop,
+                    Illustrator, InDesign,Design Theory, Branding and Logo
+                    Design
                   </p>
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
@@ -131,3 +170,5 @@ export default function CoursesPage() {
     </>
   );
 }
+
+// 6501530657, providus acct.

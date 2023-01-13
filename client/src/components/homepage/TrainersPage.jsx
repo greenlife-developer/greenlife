@@ -15,8 +15,8 @@ export default function TrainersPage() {
                   alt=""
                 />
                 <div class="member-content">
-                  <h4>Walter White</h4>
-                  <span>Web Development</span>
+                  <h4>Barrister Efosa</h4>
+                  <span>Video Editing</span>
                   <p>
                     Magni qui quod omnis unde et eos fuga et exercitationem.
                     Odio veritatis perspiciatis quaerat qui aut aut aut
@@ -47,8 +47,8 @@ export default function TrainersPage() {
                   alt=""
                 />
                 <div class="member-content">
-                  <h4>Sarah Jhinson</h4>
-                  <span>Marketing</span>
+                  <h4>Afolabi Opeyemi</h4>
+                  <span>Web Development</span>
                   <p>
                     Repellat fugiat adipisci nemo illum nesciunt voluptas
                     repellendus. In architecto rerum rerum temporibus
@@ -80,7 +80,7 @@ export default function TrainersPage() {
                 />
                 <div class="member-content">
                   <h4>William Anderson</h4>
-                  <span>Content</span>
+                  <span>Data Analyst</span>
                   <p>
                     Voluptas necessitatibus occaecati quia. Earum totam
                     consequuntur qui porro et laborum toro des clara

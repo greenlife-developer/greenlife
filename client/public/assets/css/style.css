@@ -746,6 +746,8 @@ section {
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
+  /* background-color: red; */
+  margin-bottom: 1.5rem;
   border: 1px solid #eef0ef;
 }
 
