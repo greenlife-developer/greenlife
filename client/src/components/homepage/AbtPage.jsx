@@ -14,32 +14,30 @@ export default function AbtPage() {
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
+              We are building a community of young people with high in-demand
+              skills.
             </h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              You will go through a six months of training that will build your
+              skills and shape your culture. When you register, you'll get:
             </p>
             <ul>
               <li>
-                <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
+                <i class="bi bi-check-circle"></i> Learn from professional in a
+                conducive environment.
               </li>
               <li>
-                <i class="bi bi-check-circle"></i> Duis aute irure dolor in
-                reprehenderit in voluptate velit.
+                <i class="bi bi-check-circle"></i> Be a part of a fast growing
+                community of skilled and in-demand individuals.
               </li>
               <li>
-                <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate trideta storacalaperda mastiro dolore
-                eu fugiat nulla pariatur.
+                <i class="bi bi-check-circle"></i> Develop personal projects
+                paying little or no amount with the help of the community.
               </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate
+              We provide maximum support for any and everyone of our students
+              who wants to explore any aspect of technology.
             </p>
           </div>
         </div>

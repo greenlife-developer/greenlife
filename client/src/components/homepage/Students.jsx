@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import AOS from "aos";
@@ -36,10 +36,12 @@ export default function Students() {
             <br />
             Leading Tomorrow
           </h1>
-          <h2>
-            We are team of developers training young children to code.
-          </h2>
-          <a href="https://forms.gle/gKovAv6h6rNu8zCM6" target="_blank" class="btn-get-started">
+          <h2>We are team of developers training young children to code.</h2>
+          <a
+            href="https://forms.gle/gKovAv6h6rNu8zCM6"
+            target="_blank"
+            class="btn-get-started"
+          >
             Get Started
           </a>
         </div>
@@ -48,7 +50,7 @@ export default function Students() {
 
       <main id="main">
         {/* <!-- ======= About Section ======= --> */}
-        
+
         <AbtPage />
         {/* <!-- End About Section --> */}
 
@@ -62,14 +64,17 @@ export default function Students() {
                 <div class="content">
                   <h3>Why Choose GNLIFE?</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Duis aute irure dolor in reprehenderit Asperiores
-                    dolores sed et. Tenetur quia eos. Autem tempore quibusdam
-                    vel necessitatibus optio ad corporis.
+                    GNLIFE is a community where young children learn to code
+                    with a very easy to understand curriculum. With a six months
+                    curriculum distributed into 4hrs weekend classes per week.
+                    every student have the opportunity to attend normal schools
+                    and still join us weekends to add value to themselves. Every
+                    student gets access to lifetime mentorship from their
+                    respective tutors, just to make sure there is maximum
+                    support for them to explore their skills.
                   </p>
                   <div class="text-center">
-                    <a href="about.html" class="more-btn">
+                    <a href="/about#" class="more-btn">
                       Learn More <i class="bx bx-chevron-right"></i>
                     </a>
                   </div>

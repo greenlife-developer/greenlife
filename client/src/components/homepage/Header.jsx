@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const handleNav = () => {
@@ -24,19 +24,19 @@ export default function Header() {
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
               <li>
-                <Link to="/students">Home</Link>
+                <NavLink to="/students">Home</NavLink>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <Link to="/courses">Courses</Link>
+                <NavLink to="/courses">Courses</NavLink>
               </li>
               <li>
-                <Link to="/trainers">Trainers</Link>
+                <NavLink to="/trainers">Trainers</NavLink>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
             <i
