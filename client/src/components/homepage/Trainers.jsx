@@ -1,12 +1,11 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import AOS from "aos"
+import AOS from "aos";
 import "aos/dist/aos.css";
 import TrainersPage from "./TrainersPage";
 
 export default function Trainers() {
-
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -23,7 +22,8 @@ export default function Trainers() {
           <div class="container">
             <h2>Trainers</h2>
             <p>
-              Our Trainers are professionals in their various fields {" "}
+              Our Trainers have worked on countless real world projects and they
+              have good feedbacks from their clients.
             </p>
           </div>
         </div>
@@ -31,7 +31,6 @@ export default function Trainers() {
 
         {/* <!-- ======= Trainers Section ======= --> */}
         <TrainersPage />
-        
       </main>
       <Footer />
     </div>

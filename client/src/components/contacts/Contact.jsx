@@ -66,7 +66,7 @@ export default function Students() {
 
               <div class="col-lg-8 mt-5 mt-lg-0">
                 <form
-                  action="forms/contact.php"
+                  action="/gnlife/students/contact"
                   method="post"
                   role="form"
                   class="php-email-form"

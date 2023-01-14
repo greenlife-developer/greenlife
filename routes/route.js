@@ -40,6 +40,13 @@ mongoClient.connect(db, { useUnifiedTopology: true }, function (error, client) {
 
   });
 
+  router.post("/gnlife/students/contact", (req, res) =>{
+    const name = req.body.name
+    const email = req.body.email
+    const subject = req.body.subject
+    const message = req.body.message
+  })
+
   // router.post("/maestromarv/register", (req, res) => {
 
   //   console.log(req.body)

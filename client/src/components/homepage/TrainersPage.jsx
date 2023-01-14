@@ -50,8 +50,7 @@ export default function TrainersPage() {
                   <h4>Afolabi Opeyemi</h4>
                   <span>Web Development</span>
                   <p>
-                    Repellat fugiat adipisci nemo illum nesciunt voluptas
-                    repellendus. In architecto rerum rerum temporibus
+                    MERN stack developer. An explorer of the opportunities in tech.
                   </p>
                   <div class="social">
                     <a href="">

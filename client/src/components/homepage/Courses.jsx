@@ -23,9 +23,7 @@ export default function Courses() {
           <div class="container">
             <h2>Courses</h2>
             <p>
-              Est dolorum ut non facere possimus quibusdam eligendi voluptatem.
-              Quia id aut similique quia voluptas sit quaerat debitis. Rerum
-              omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.{" "}
+              Our courses are rich in content and are taught by professionals in their various fields. 
             </p>
           </div>
         </div>

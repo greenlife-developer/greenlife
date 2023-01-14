@@ -34,7 +34,7 @@ app.use(
     })
 );
 
-app.use('/api', require("./routes/route"));
+app.use('/', require("./routes/route"));
 
 // --------------------------deployment------------------------------
 
@@ -52,7 +52,7 @@ if (process.env.NODE_ENV === "production" || process.env.NODE_ENV === "staging")
 
 // --------------------------deployment------------------------------
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 4000
 
 app.listen(PORT, () => {
     console.log("Server has started on port", PORT)

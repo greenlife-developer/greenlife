@@ -1,12 +1,11 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import AOS from "aos"
+import AOS from "aos";
 import "aos/dist/aos.css";
 import AbtPage from "./AbtPage";
 
 export default function About() {
-
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -23,9 +22,9 @@ export default function About() {
           <div class="container">
             <h2>About Us</h2>
             <p>
-              Est dolorum ut non facere possimus quibusdam eligendi voluptatem.
-              Quia id aut similique quia voluptas sit quaerat debitis. Rerum
-              omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.{" "}
+              GNLife is the solution to development in Nigeria. We are raised to
+              raise, blessed to bless. Every energy is towards creating people,
+              products and services that will change the world.
             </p>
           </div>
         </div>
@@ -103,14 +102,13 @@ export default function About() {
                         class="testimonial-img"
                         alt=""
                       />
-                      <h3>Saul Goodman</h3>
+                      <h3>Afolabi Opeyemi</h3>
                       <h4>Ceo &amp; Founder</h4>
                       <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Proin iaculis purus consequat sem cure digni ssim donec
-                        porttitora entum suscipit rhoncus. Accusantium quam,
-                        ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                        risus at semper.
+                        Working as a developer at GNLife is an experience I am
+                        grateful for because our students are really growing and
+                        they are happy.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                       </p>
                     </div>

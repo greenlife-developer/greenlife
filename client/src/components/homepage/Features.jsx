@@ -11,7 +11,7 @@ export default function Features() {
               <div class="icon-box">
                 <i class="ri-store-line" style={{ color: "#ffbb2c" }}></i>
                 <h3>
-                  <a href="">Lorem Ipsum</a>
+                  <a href="#">HTML</a>
                 </h3>
               </div>
             </div>
@@ -22,7 +22,7 @@ export default function Features() {
                   style={{ color: "#5578ff;" }}
                 ></i>
                 <h3>
-                  <a href="">Dolor Sitema</a>
+                  <a href="#">Data Analytics</a>
                 </h3>
               </div>
             </div>
@@ -33,7 +33,7 @@ export default function Features() {
                   style={{ color: "#e80368;" }}
                 ></i>
                 <h3>
-                  <a href="">Sed perspiciatis</a>
+                  <a href="#">Bootstrap</a>
                 </h3>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Features() {
                   style={{ color: "#e361ff;" }}
                 ></i>
                 <h3>
-                  <a href="">Magni Dolores</a>
+                  <a href="#">Development</a>
                 </h3>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Features() {
               <div class="icon-box">
                 <i class="ri-database-2-line" style={{ color: "#47aeff;" }}></i>
                 <h3>
-                  <a href="">Nemo Enim</a>
+                  <a href="#">Hosting</a>
                 </h3>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Features() {
               <div class="icon-box">
                 <i class="ri-gradienter-line" style={{ color: "#ffa76e;" }}></i>
                 <h3>
-                  <a href="">Eiusmod Tempor</a>
+                  <a href="#">CSS</a>
                 </h3>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function Features() {
                   style={{ color: "#11dbcf;" }}
                 ></i>
                 <h3>
-                  <a href="">Midela Teren</a>
+                  <a href="#">Graphic design</a>
                 </h3>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Features() {
                   style={{ color: "-moz-initial" }}
                 ></i>
                 <h3>
-                  <a href="">Pira Neve</a>
+                  <a href="#">Photoshop</a>
                 </h3>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Features() {
               <div class="icon-box">
                 <i class="ri-anchor-line" style={{ color: "#b2904f;" }}></i>
                 <h3>
-                  <a href="">Dirada Pack</a>
+                  <a href="#">Illustrator</a>
                 </h3>
               </div>
             </div>
@@ -98,7 +98,7 @@ export default function Features() {
               <div class="icon-box">
                 <i class="ri-disc-line" style={{ color: "ActiveCaption" }}></i>
                 <h3>
-                  <a href="">Moton Ideal</a>
+                  <a href="#">Video Editing</a>
                 </h3>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Features() {
                   style={{ color: "#ff5828;" }}
                 ></i>
                 <h3>
-                  <a href="">Verdo Park</a>
+                  <a href="#">Writing</a>
                 </h3>
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function Features() {
                   style={{ color: "#29cc61;" }}
                 ></i>
                 <h3>
-                  <a href="">Flavor Nivelanda</a>
+                  <a href="#">Copywriting</a>
                 </h3>
               </div>
             </div>
