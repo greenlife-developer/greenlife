@@ -78,7 +78,7 @@ export default function Footer() {
                 <p>
                   Be the first to receive our latest news via email.
                 </p>
-                <form action="" method="post">
+                <form action="/gnlife/students/subscribe" method="post">
                   <input type="email" name="email" />
                   <input type="submit" value="Subscribe" />
                 </form>

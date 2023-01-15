@@ -96,7 +96,7 @@ export default function Features() {
             </div>
             <div class="col-lg-3 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-disc-line" style={{ color: "ActiveCaption" }}></i>
+                <i class="ri-video" style={{ color: "ActiveCaption" }}></i>
                 <h3>
                   <a href="#">Video Editing</a>
                 </h3>
@@ -105,7 +105,7 @@ export default function Features() {
             <div class="col-lg-3 col-md-4 mt-4">
               <div class="icon-box">
                 <i
-                  class="ri-base-station-line"
+                  class="ri-base-pen"
                   style={{ color: "#ff5828;" }}
                 ></i>
                 <h3>
