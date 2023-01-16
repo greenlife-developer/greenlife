@@ -47,7 +47,7 @@ export default function Header() {
           </nav>
 
           <a href="https://forms.gle/gKovAv6h6rNu8zCM6" target="_blank" class="get-started-btn">
-            Get Started
+            Register Now
           </a>
         </div>
       </header>

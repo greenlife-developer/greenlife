@@ -42,7 +42,7 @@ export default function Students() {
             target="_blank"
             class="btn-get-started"
           >
-            Get Started
+            Register Now
           </a>
         </div>
       </section>

@@ -18,8 +18,7 @@ export default function TrainersPage() {
                   <h4>Barrister Efosa</h4>
                   <span>Video Editing</span>
                   <p>
-                    Magni qui quod omnis unde et eos fuga et exercitationem.
-                    Odio veritatis perspiciatis quaerat qui aut aut aut
+                    Cinematographer, writer and film maker
                   </p>
                   <div class="social">
                     <a href="">
@@ -42,7 +41,7 @@ export default function TrainersPage() {
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <img
-                  src="assets/img/trainers/trainer-2.jpg"
+                  src="assets/img/trainers/trainer-2.png"
                   class="img-fluid"
                   alt=""
                 />
@@ -50,7 +49,7 @@ export default function TrainersPage() {
                   <h4>Afolabi Opeyemi</h4>
                   <span>Web Development</span>
                   <p>
-                    MERN stack developer. An explorer of the opportunities in tech.
+                    MERN stack developer. Tech enthusiast.
                   </p>
                   <div class="social">
                     <a href="">
@@ -78,11 +77,10 @@ export default function TrainersPage() {
                   alt=""
                 />
                 <div class="member-content">
-                  <h4>William Anderson</h4>
-                  <span>Data Analyst</span>
+                  <h4>Adeola A.</h4>
+                  <span>Digital Designs</span>
                   <p>
-                    Voluptas necessitatibus occaecati quia. Earum totam
-                    consequuntur qui porro et laborum toro des clara
+                    Graphic Designer | UI/UX Designer | Content Creator
                   </p>
                   <div class="social">
                     <a href="">
