@@ -20,7 +20,7 @@ export default function Footer() {
               <div class="col-lg-3 col-md-6 footer-contact">
                 <h3>GNLIFE</h3>
                 <p>
-                  Adekunle Plaza, shop 24 <br />
+                  Adekunle Plaza, shop 20 <br />
                   Opposite Futa North Gate, Akure
                   <br />
                   Ondo State. <br />
