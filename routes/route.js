@@ -36,11 +36,11 @@ mongoClient.connect(db, { useUnifiedTopology: true }, function (error, client) {
   console.log("MongoDB Connected...")
   database = client.db("GNLife");
 
-  router.get("/", (req, res) => {
-    res.json({
-      name: "Afolabi Opeyemi"
-    })
-  });
+  // router.get("/", (req, res) => {
+  //   res.json({
+  //     name: "Afolabi Opeyemi"
+  //   })
+  // });
 
   router.post("/gnlife/students/contact", (req, res) => {
     const name = req.body.name
