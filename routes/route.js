@@ -37,17 +37,19 @@ mongoClient.connect(db, { useUnifiedTopology: true }, function (error, client) {
   database = client.db("GNLife");
 
   router.get("/", (req, res) => {
-
+    res.json({
+      name: "Afolabi Opeyemi"
+    })
   });
 
-  router.post("/gnlife/students/contact", (req, res) =>{
+  router.post("/gnlife/students/contact", (req, res) => {
     const name = req.body.name
     const email = req.body.email
     const subject = req.body.subject
     const message = req.body.message
   })
 
-  router.post("/gnlife/students/subscribe", (req, res) =>{
+  router.post("/gnlife/students/subscribe", (req, res) => {
     const email = req.body.email
     console.log(email)
   })

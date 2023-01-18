@@ -823,6 +823,9 @@ section {
 
 .trainers .member img {
   margin: -1px -1px 30px -1px;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .trainers .member .member-content {
