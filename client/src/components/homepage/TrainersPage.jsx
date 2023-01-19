@@ -15,7 +15,7 @@ export default function TrainersPage() {
                   alt=""
                 />
                 <div class="member-content">
-                  <h4>Barrister Efosa</h4>
+                  <h4>Efosa Osiomwanuri</h4>
                   <span>Video Editing</span>
                   <p>
                     Cinematographer, writer and film maker

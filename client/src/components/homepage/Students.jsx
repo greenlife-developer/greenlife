@@ -36,7 +36,7 @@ export default function Students() {
             <br />
             Leading Tomorrow
           </h1>
-          <h2>We are team of developers training young children to code.</h2>
+          <h2>We are team experts in various tech fields, and we are growing new talents</h2>
           <a
             href="https://forms.gle/gKovAv6h6rNu8zCM6"
             target="_blank"

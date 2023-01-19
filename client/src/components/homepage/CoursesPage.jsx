@@ -36,7 +36,7 @@ export default function CoursesPage() {
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
                       <img
-                        src="assets/img/trainers/trainer-1.jpg"
+                        src="assets/img/trainers/trainer-2.png"
                         class="img-fluid"
                         alt=""
                       />
@@ -76,11 +76,11 @@ export default function CoursesPage() {
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
                       <img
-                        src="assets/img/trainers/trainer-2.jpg"
+                        src="assets/img/trainers/trainer-1.jpg"
                         class="img-fluid"
                         alt=""
                       />
-                      <span>Barrister Efosa</span>
+                      <span>Efosa Osiomwanuri</span>
                     </div>
                     <div class="trainer-rank d-flex align-items-center">
                       <i class="bx bx-user"></i>&nbsp;15 &nbsp;&nbsp;
@@ -151,8 +151,8 @@ export default function CoursesPage() {
                   </p>
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
-                      {/* <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="" > */}
-                      <span>Brandon</span>
+                      <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="" />
+                      <span>Adeola A.</span>
                     </div>
                     <div class="trainer-rank d-flex align-items-center">
                       <i class="bx bx-user"></i>&nbsp;20 &nbsp;&nbsp;
