@@ -47,11 +47,31 @@ mongoClient.connect(db, { useUnifiedTopology: true }, function (error, client) {
     const email = req.body.email
     const subject = req.body.subject
     const message = req.body.message
+    database.collection("users").insertOne(
+      {
+        name,
+        email,
+        subject,
+        message,
+      },
+      (err, data) => {
+        console.log(data);
+        res.redirect("/contact?message=sent");
+      }
+    );
   })
 
   router.post("/gnlife/students/subscribe", (req, res) => {
     const email = req.body.email
-    console.log(email)
+    database.collection("users").insertOne(
+      {
+        email,
+      },
+      (err, data) => {
+        console.log(data);
+        res.redirect("/student?message=subscribed");
+      }
+    );
   })
 
   // router.post("/maestromarv/register", (req, res) => {

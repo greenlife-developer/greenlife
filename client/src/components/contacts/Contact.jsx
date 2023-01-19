@@ -3,6 +3,7 @@ import Header from "../homepage/Header";
 import Footer from "../homepage/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 export default function Students() {
   useEffect(() => {
@@ -11,6 +12,11 @@ export default function Students() {
     });
     AOS.refresh();
   }, []);
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get("message");
+
+  console.log(query);
   return (
     <>
       <Header />
@@ -115,9 +121,11 @@ export default function Students() {
                   <div class="my-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
+                    {query && query === "sent" ? (
+                      <div class="success-message">
+                        Your message has been sent. Thank you!
+                      </div>
+                    ) : null}
                   </div>
                   <div class="text-center">
                     <button type="submit">Send Message</button>
