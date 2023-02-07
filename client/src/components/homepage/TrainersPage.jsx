@@ -77,7 +77,7 @@ export default function TrainersPage() {
                   alt=""
                 />
                 <div class="member-content">
-                  <h4>Adeola A.</h4>
+                  <h4>Grace Jesumuyiwa</h4>
                   <span>Digital Designs</span>
                   <p>
                     Graphic Designer | UI/UX Designer | Content Creator

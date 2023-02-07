@@ -9,7 +9,7 @@ export default function Features() {
           <div class="row" data-aos="zoom-in" data-aos-delay="100">
             <div class="col-lg-3 col-md-4">
               <div class="icon-box">
-                <i class="ri-store-line" style={{ color: "#ffbb2c" }}></i>
+                <i class="ri-code" style={{ color: "#ffbb2c" }}></i>
                 <h3>
                   <a href="#">HTML</a>
                 </h3>
