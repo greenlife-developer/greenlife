@@ -9,7 +9,7 @@ export default function Features() {
           <div class="row" data-aos="zoom-in" data-aos-delay="100">
             <div class="col-lg-3 col-md-4">
               <div class="icon-box">
-                <i class="ri-code" style={{ color: "#ffbb2c" }}></i>
+                <i class="ri-html5-line" style={{ color: "#ffbb2c" }}></i>
                 <h3>
                   <a href="#">HTML</a>
                 </h3>
@@ -40,7 +40,7 @@ export default function Features() {
             <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
               <div class="icon-box">
                 <i
-                  class="ri-paint-brush-line"
+                  class="ri-code-s-slash-line"
                   style={{ color: "#e361ff;" }}
                 ></i>
                 <h3>
@@ -58,7 +58,7 @@ export default function Features() {
             </div>
             <div class="col-lg-3 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-gradienter-line" style={{ color: "#ffa76e;" }}></i>
+                <i class="ri-css3-line" style={{ color: "#ffa76e;" }}></i>
                 <h3>
                   <a href="#">CSS</a>
                 </h3>
@@ -96,7 +96,7 @@ export default function Features() {
             </div>
             <div class="col-lg-3 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-video" style={{ color: "ActiveCaption" }}></i>
+                <i class="ri-video-chat-line" style={{ color: "ActiveCaption" }}></i>
                 <h3>
                   <a href="#">Video Editing</a>
                 </h3>
@@ -105,7 +105,7 @@ export default function Features() {
             <div class="col-lg-3 col-md-4 mt-4">
               <div class="icon-box">
                 <i
-                  class="ri-base-pen"
+                  class="ri-pen-nib-line"
                   style={{ color: "#ff5828;" }}
                 ></i>
                 <h3>
