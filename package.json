@@ -9,6 +9,20 @@
     "heroku-postbuild": "cd client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "gnlife software development company",
+    "Learn coding",
+    "Learn Digital Marketing",
+    "Learn Data Analysis",
+    "Learn UI/UX",
+    "Software company that trains children in Akure",
+    "Akure Tech Companies",
+    "Children coding school",
+    "Learning Digital Skills",
+    "Website Development",
+    "Digital Marketing Expert",
+    "company"
+  ],
   "engines": {
     "node": "16.17.1"
   },
