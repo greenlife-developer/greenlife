@@ -12,7 +12,7 @@ export default function TrainersPage() {
                 <img
                   src="assets/img/trainers/trainer-1.jpg"
                   class="img-fluid"
-                  alt=""
+                  alt="gnlife trainer img"
                 />
                 <div class="member-content">
                   <h4>Efosa Osiomwanuri</h4>
@@ -43,7 +43,7 @@ export default function TrainersPage() {
                 <img
                   src="assets/img/trainers/trainer-2.png"
                   class="img-fluid"
-                  alt=""
+                  alt="gnlife trainer img"
                 />
                 <div class="member-content">
                   <h4>Afolabi Opeyemi</h4>
@@ -74,7 +74,7 @@ export default function TrainersPage() {
                 <img
                   src="assets/img/trainers/trainer-3.jpg"
                   class="img-fluid"
-                  alt=""
+                  alt="gnlife trainer img"
                 />
                 <div class="member-content">
                   <h4>Grace Jesumuyiwa</h4>

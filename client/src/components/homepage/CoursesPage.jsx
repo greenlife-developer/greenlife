@@ -17,7 +17,7 @@ export default function CoursesPage() {
                 <img
                   src="assets/img/course-1.jpg"
                   class="img-fluid"
-                  alt="..."
+                  alt="gnlife course img"
                 />
                 <div class="course-content">
                   <div class="d-flex justify-content-between align-items-center mb-3">
@@ -38,7 +38,7 @@ export default function CoursesPage() {
                       <img
                         src="assets/img/trainers/trainer-2.png"
                         class="img-fluid"
-                        alt=""
+                        alt="gnlife trainer img"
                       />
                       <span>Afolabi Opeyemi</span>
                     </div>
@@ -57,7 +57,7 @@ export default function CoursesPage() {
                 <img
                   src="assets/img/course-2.jpg"
                   class="img-fluid"
-                  alt="..."
+                  alt="gnlife course img"
                 />
                 <div class="course-content">
                   <div class="d-flex justify-content-between align-items-center mb-3">
@@ -78,7 +78,7 @@ export default function CoursesPage() {
                       <img
                         src="assets/img/trainers/trainer-1.jpg"
                         class="img-fluid"
-                        alt=""
+                        alt="gnlife trainer img"
                       />
                       <span>Efosa Osiomwanuri</span>
                     </div>
@@ -116,7 +116,7 @@ export default function CoursesPage() {
                   </p>
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
-                      {/* <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="" > */}
+                      {/* <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="gnlife trainer img" > */}
                       <span>Brandon</span>
                     </div>
                     <div class="trainer-rank d-flex align-items-center">
@@ -133,7 +133,7 @@ export default function CoursesPage() {
                 <img
                   src="assets/img/course-4.jpg"
                   class="img-fluid"
-                  alt="..."
+                  alt="gnlife course img"
                 />
                 <div class="course-content">
                   <div class="d-flex justify-content-between align-items-center mb-3">
@@ -151,7 +151,7 @@ export default function CoursesPage() {
                   </p>
                   <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
-                      <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="" />
+                      <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="gnlife trainer img" />
                       <span>Grace Jesumuyiwa</span>
                     </div>
                     <div class="trainer-rank d-flex align-items-center">
