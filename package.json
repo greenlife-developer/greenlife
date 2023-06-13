@@ -1,7 +1,7 @@
 {
-  "name": "GreenLife",
+  "name": "GNLife tech Network",
   "version": "1.0.0",
-  "description": "",
+  "description": "GNLife Tech Network is a software development company that both trains and raises new talents",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/greenlife-developer/maestromarv.git"
+    "url": "https://github.com/greenlife-developer/greenlife.git"
   },
   "author": "Afolabi Opeyemi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/greenlife-developer/maestromarv/issues"
+    "url": "https://github.com/greenlife-developer/greenlife/issues"
   },
-  "homepage": "https://github.com/greenlife-developer/maestromarv#readme",
+  "homepage": "https://github.com/greenlife-developer/greenlife#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
