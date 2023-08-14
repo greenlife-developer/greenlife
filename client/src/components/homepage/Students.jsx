@@ -3,12 +3,14 @@ import Footer from "./Footer";
 import Header from "./Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./style.css";
+// import "./style.css";
 import AbtPage from "./AbtPage";
 import CoursesPage from "./CoursesPage";
 import TrainersPage from "./TrainersPage";
 import Features from "./Features";
 import Counts from "./Counts";
+import SEO from "../SEO";
+import Testimonials from "./Testimonials";
 
 export default function Students() {
   useEffect(() => {
@@ -20,12 +22,16 @@ export default function Students() {
 
   return (
     <div className="">
+      <SEO
+        title="GNLife | Students"
+        description="GNLife Tech Network has professionals in various major tech fields who can mentor new talents"
+        name="GNLife Tech Network"
+        type="landing page"
+      />
       <Header />
-      {/* <!-- ======= Hero Section ======= --> */}
-      <section
-        id="hero"
-        class="d-flex justify-content-center align-items-center"
-      >
+
+      {/* <!-- ======= first section Home page ======= --> */}
+      <section class="gnlife-banner">
         <div
           class="container position-relative"
           data-aos="zoom-in"
@@ -36,17 +42,20 @@ export default function Students() {
             <br />
             Leading Tomorrow
           </h1>
-          <h2>We are team experts in various tech fields, and we are growing new talents</h2>
+          <h2>
+            We are team experts in various tech fields, and we are growing new
+            talents
+          </h2>
           <a
             href="https://forms.gle/gKovAv6h6rNu8zCM6"
             target="_blank"
-            class="btn-get-started"
+            class="register"
           >
             Register Now
           </a>
         </div>
       </section>
-      {/* <!-- End Hero --> */}
+      {/* <!-- End of first section Home page--> */}
 
       <main id="main">
         {/* <!-- ======= About Section ======= --> */}
@@ -60,7 +69,7 @@ export default function Students() {
         <section id="why-us" class="why-us">
           <div class="container" data-aos="fade-up">
             <div class="row">
-              <div class="col-lg-4 d-flex align-items-stretch">
+              <div class="why-main-content">
                 <div class="content">
                   <h3>Why Choose GNLIFE?</h3>
                   <p>
@@ -80,23 +89,19 @@ export default function Students() {
                   </div>
                 </div>
               </div>
-              <div
-                class="col-lg-8 d-flex align-items-stretch"
-                data-aos="zoom-in"
-                data-aos-delay="100"
-              >
-                <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="benefits" data-aos="zoom-in" data-aos-delay="100">
+                <div class="gnlife-students-stages">
                   <div class="row">
-                    <div class="col-xl-4 d-flex align-items-stretch">
-                      <div class="icon-box mt-4 mt-xl-0">
-                        <i class="bx bx-user"></i>
+                    <div class="stage">
+                      <div class="">
+                        <i class="ri-user-line"></i>
                         <h4>Become a student today</h4>
                         <p>Fill in the form to join our student's community.</p>
                       </div>
                     </div>
-                    <div class="col-xl-4 d-flex align-items-stretch">
-                      <div class="icon-box mt-4 mt-xl-0">
-                        <i class="bx bx-cube-alt"></i>
+                    <div class="stage">
+                      <div class="">
+                        <i class="ri-box-3-line"></i>
                         <h4>Build your talent and a sound culture</h4>
                         <p>
                           Go through our six months training and become a better
@@ -104,9 +109,9 @@ export default function Students() {
                         </p>
                       </div>
                     </div>
-                    <div class="col-xl-4 d-flex align-items-stretch">
-                      <div class="icon-box mt-4 mt-xl-0">
-                        <i class="bx bx-user"></i>
+                    <div class="stage">
+                      <div class="">
+                        <i class="ri-graduation-cap-line"></i>
                         <h4>Become an expert in the field</h4>
                         <p>
                           Join the past students community and build personal
@@ -128,6 +133,8 @@ export default function Students() {
         <CoursesPage />
 
         <TrainersPage />
+
+        <Testimonials />
       </main>
       <Footer />
     </div>

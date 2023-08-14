@@ -4,10 +4,10 @@ export default function TrainersPage() {
   return (
     <>
       {/* <!-- ======= Trainers Section ======= --> */}
-      <section id="trainers" class="trainers">
+      <section class="gnlife-trainers">
         <div class="container" data-aos="fade-up">
           <div class="row" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="trainer-box">
               <div class="member">
                 <img
                   src="assets/img/trainers/trainer-1.jpg"
@@ -38,7 +38,7 @@ export default function TrainersPage() {
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="trainer-box">
               <div class="member">
                 <img
                   src="assets/img/trainers/trainer-2.png"
@@ -69,7 +69,7 @@ export default function TrainersPage() {
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="trainer-box">
               <div class="member">
                 <img
                   src="assets/img/trainers/trainer-3.jpg"

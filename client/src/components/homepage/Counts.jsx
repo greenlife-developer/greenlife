@@ -4,45 +4,26 @@ export default function Counts() {
   return (
     <>
       {/* <!-- ======= Counts Section ======= --> */}
-      <section id="counts" class="counts section-bg">
+      <section id="counts" class="gnlife-courses-counts">
         <div class="container">
           <div class="row counters">
             <div class="col-lg-3 col-6 text-center">
               <span
-                data-purecounter-start="0"
-                data-purecounter-end="1232"
-                data-purecounter-duration="1"
-                class="purecounter"
+                class="counter"
               ></span>
               <p>Students</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
               <span
-                data-purecounter-start="0"
-                data-purecounter-end="64"
-                data-purecounter-duration="1"
-                class="purecounter"
+                class="counter"
               ></span>
               <p>Courses</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
               <span
-                data-purecounter-start="0"
-                data-purecounter-end="42"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Events</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="15"
-                data-purecounter-duration="1"
-                class="purecounter"
+                class="counter"
               ></span>
               <p>Trainers</p>
             </div>

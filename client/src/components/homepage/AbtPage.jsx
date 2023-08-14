@@ -2,17 +2,17 @@ import React from "react";
 
 export default function AbtPage() {
   return (
-    <section id="about" class="about">
+    <section id="about" class="about-gnlife">
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div
-            class="col-lg-6 order-1 order-lg-2"
+            class="about-img"
             data-aos="fade-left"
             data-aos-delay="100"
           >
-            <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+            <img src="assets/img/about.jpg" class="" alt="" />
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <div class="content">
             <h3>
               We are building a community of young people with high in-demand
               skills.
@@ -21,18 +21,20 @@ export default function AbtPage() {
               You will go through a six months of training that will build your
               skills and shape your culture. When you register, you'll get:
             </p>
-            <ul>
-              <li>
-                <i class="bi bi-check-circle"></i> Learn from professional in a
-                conducive environment.
+            <ul role="list">
+              <li data-icon="">
+                <i class="ri-checkbox-circle-line"></i>
+                Learn from professional in a conducive environment.
               </li>
-              <li>
-                <i class="bi bi-check-circle"></i> Be a part of a fast growing
-                community of skilled and in-demand individuals.
+              <li data-icon="">
+                <i class="ri-checkbox-circle-line"></i>
+                Be a part of a fast growing community of skilled and in-demand
+                individuals.
               </li>
-              <li>
-                <i class="bi bi-check-circle"></i> Develop personal projects
-                paying little or no amount with the help of the community.
+              <li data-icon="">
+                <i class="ri-checkbox-circle-line"></i>
+                Develop personal projects paying little or no amount with the
+                help of the community.
               </li>
             </ul>
             <p>

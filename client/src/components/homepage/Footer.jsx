@@ -18,7 +18,7 @@ export default function Footer() {
           <div class="container">
             <div class="row">
               <div class="col-lg-3 col-md-6 footer-contact">
-                <h3>GNLIFE</h3>
+                <h4>GNLIFE TECH NETWORK</h4>
                 <p>
                   Adekunle Plaza, shop 20 <br />
                   Opposite Futa North Gate, Akure
@@ -51,7 +51,7 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div class="col-lg-3 col-md-6 footer-links">
+              <div class="footer-links">
                 <h4>Our Services</h4>
                 <ul>
                   <li>
@@ -73,7 +73,7 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div class="col-lg-4 col-md-6 footer-newsletter">
+              <div class="footer-newsletter">
                 <h4>Join Our Newsletter</h4>
                 <p>
                   Be the first to receive our latest news via email.
@@ -87,38 +87,28 @@ export default function Footer() {
           </div>
         </div>
 
-        <div class="container d-md-flex py-4">
-          <div class="me-md-auto text-center text-md-start">
+        <div class="footer-bottom">
+          <div class="copyright-c">
             <div class="copyright">
               &copy; Copyright{" "}
               <strong>
-                <span>GNLIFE</span>
+                <span>GNLIFE TECH NETWORK</span>
               </strong>
               . All Rights Reserved
             </div>
-            <div class="credits">
-              {/* <!-- All the links in the footer should remain intact. -->
-              <!-- You can delete the links only if you purchased the pro version. -->
-              <!-- Licensing information: https://bootstrapmade.com/license/ -->
-              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> */}
-            </div>
           </div>
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <div class="social-links text-center">
             <a href="#" class="twitter">
-              <i class="bx bxl-twitter"></i>
+             <i class="ri-twitter-x-line"></i>
             </a>
             <a href="#" class="facebook">
-              <i class="bx bxl-facebook"></i>
+               <i class="ri-facebook-line"></i>
             </a>
             <a href="#" class="instagram">
-              <i class="bx bxl-instagram"></i>
-            </a>
-            <a href="#" class="google-plus">
-              <i class="bx bxl-skype"></i>
+              <i class="ri-instagram-line"></i>
             </a>
             <a href="#" class="linkedin">
-              <i class="bx bxl-linkedin"></i>
+              <i class="ri-linkedin-fill"></i>
             </a>
           </div>
         </div>

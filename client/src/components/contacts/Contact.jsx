@@ -21,7 +21,7 @@ export default function Students() {
     <>
       <Header />
 
-      <main id="main">
+      <main id="main" className="gnlife-contact">
         {/* <!-- ======= Breadcrumbs ======= --> */}
         <div class="breadcrumbs" data-aos="fade-in">
           <div class="container">
@@ -36,7 +36,7 @@ export default function Students() {
         {/* <!-- End Breadcrumbs --> */}
 
         {/* <!-- ======= Contact Section ======= --> */}
-        <section id="contact" class="contact">
+        <section class="contact">
           <div data-aos="fade-up">
             <iframe
               style={{ border: "0", width: "100%", height: "350px" }}
@@ -51,21 +51,27 @@ export default function Students() {
               <div class="col-lg-4">
                 <div class="info">
                   <div class="address">
-                    <i class="bi bi-geo-alt"></i>
-                    <h4>Location:</h4>
-                    <p>Adekunle Plaza, Opposite North gate, Akure</p>
+                    <i class="ri-map-pin-line"></i>
+                    <div className="">
+                      <h4>Location:</h4>
+                      <p>Adekunle Plaza, Opposite North gate, Akure</p>
+                    </div>
                   </div>
 
                   <div class="email">
-                    <i class="bi bi-envelope"></i>
-                    <h4>Email:</h4>
-                    <p>greenlifeinfoteam@gmail.com</p>
+                    <i class="ri-mail-line"></i>
+                    <div className="">
+                      <h4>Email:</h4>
+                      <p>greenlifeinfoteam@gmail.com</p>
+                    </div>
                   </div>
 
                   <div class="phone">
-                    <i class="bi bi-phone"></i>
-                    <h4>Call:</h4>
-                    <p>+234 806 5109 764</p>
+                    <i class="ri-smartphone-line"></i>
+                    <div className="">
+                      <h4>Call:</h4>
+                      <p>+234 806 5109 764</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -75,7 +81,7 @@ export default function Students() {
                   action="/gnlife/students/contact"
                   method="post"
                   role="form"
-                  class="php-email-form"
+                  class="contact-form"
                 >
                   <div class="row">
                     <div class="col-md-6 form-group">
@@ -88,10 +94,10 @@ export default function Students() {
                         required
                       />
                     </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <div class="">
                       <input
                         type="email"
-                        class="form-control"
+                        class="contact-email"
                         name="email"
                         id="email"
                         placeholder="Your Email"
@@ -99,7 +105,7 @@ export default function Students() {
                       />
                     </div>
                   </div>
-                  <div class="form-group mt-3">
+                  <div class="contact-subject">
                     <input
                       type="text"
                       class="form-control"
@@ -109,7 +115,7 @@ export default function Students() {
                       required
                     />
                   </div>
-                  <div class="form-group mt-3">
+                  <div class="contact-message">
                     <textarea
                       class="form-control"
                       name="message"
@@ -119,7 +125,6 @@ export default function Students() {
                     ></textarea>
                   </div>
                   <div class="my-3">
-                    <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     {query && query === "sent" ? (
                       <div class="success-message">
@@ -127,7 +132,7 @@ export default function Students() {
                       </div>
                     ) : null}
                   </div>
-                  <div class="text-center">
+                  <div class="contact-btn">
                     <button type="submit">Send Message</button>
                   </div>
                 </form>

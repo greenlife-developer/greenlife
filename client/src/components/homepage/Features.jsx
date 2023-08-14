@@ -7,7 +7,7 @@ export default function Features() {
       <section id="features" class="features">
         <div class="container" data-aos="fade-up">
           <div class="row" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-lg-3 col-md-4">
+            <div class="">
               <div class="icon-box">
                 <i class="ri-html5-line" style={{ color: "#ffbb2c" }}></i>
                 <h3>
@@ -15,7 +15,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="">
               <div class="icon-box">
                 <i
                   class="ri-bar-chart-box-line"
@@ -26,7 +26,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="">
               <div class="icon-box">
                 <i
                   class="ri-calendar-todo-line"
@@ -37,7 +37,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class=" mt-4 mt-lg-0">
               <div class="icon-box">
                 <i
                   class="ri-code-s-slash-line"
@@ -48,7 +48,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i class="ri-database-2-line" style={{ color: "#47aeff;" }}></i>
                 <h3>
@@ -56,7 +56,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i class="ri-css3-line" style={{ color: "#ffa76e;" }}></i>
                 <h3>
@@ -64,7 +64,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i
                   class="ri-file-list-3-line"
@@ -75,7 +75,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i
                   class="ri-price-tag-2-line"
@@ -86,7 +86,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i class="ri-anchor-line" style={{ color: "#b2904f;" }}></i>
                 <h3>
@@ -94,7 +94,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i class="ri-video-chat-line" style={{ color: "ActiveCaption" }}></i>
                 <h3>
@@ -102,7 +102,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i
                   class="ri-pen-nib-line"
@@ -113,7 +113,7 @@ export default function Features() {
                 </h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4">
+            <div class=" mt-4">
               <div class="icon-box">
                 <i
                   class="ri-fingerprint-line"
