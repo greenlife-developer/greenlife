@@ -2,19 +2,19 @@ import React from 'react';
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
-import Students from "./components/homepage/Students";
+import Students from "./components/student/Students";
 import Contact from "./components/contacts/Contact";
-import About from './components/homepage/About';
-import Courses from './components/homepage/Courses';
-import Trainers from './components/homepage/Trainers';
-import Student from './components/home/Student';
+import About from './components/student/About';
+import Courses from './components/student/Courses';
+import Trainers from './components/student/Trainers';
 import 'remixicon/fonts/remixicon.css';
 import 'swiper/css/bundle';
 import 'swiper/css';
 import "swiper/css/pagination";
 import 'swiper/css/navigation';
-import "./components/homepage/style.css";
-import "./components/homepage/mediaq.css";
+import "./components/student/style.css";
+import "./components/student/mediaq.css";
+import "./components/home/index.css"
 const helmetContext = {};
 
 
@@ -34,7 +34,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/trainers" element={<Trainers />} />
-            <Route path="/student" element={<Student />} />
+            
           </Routes>
         </Router>
       </HelmetProvider>

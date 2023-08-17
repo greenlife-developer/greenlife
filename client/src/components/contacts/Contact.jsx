@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Header from "../homepage/Header";
-import Footer from "../homepage/Footer";
+import Header from "../student/Header";
+import Footer from "../student/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useNavigate, useSearchParams } from "react-router-dom";
