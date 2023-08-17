@@ -522,10 +522,21 @@
     color: #F0F7ED;
 }
 
-.row-item svg{
+.row-item span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #333;
-    padding: 5px;
+    /* padding: 12px; */
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+
+}
+
+.row-item svg{
+    /* padding: 5px; */
+    /* border-radius: 50%; */
 
 }
 

@@ -53,21 +53,23 @@ export default function Footer() {
         <div className="item">
           <div className="row">
             <div className="row-item">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="36"
-                height="36"
-                viewBox="0 0 36 36"
-                fill="none"
-              >
-                <path
-                  d="M13.6869 32.8834C12.1742 33.8607 10.3716 34.2867 8.5822 34.0897C6.79281 33.8925 5.12573 33.0844 3.86134 31.8009L2.75595 30.7184C2.27134 30.2219 2 29.5553 2 28.861C2 28.1668 2.27134 27.4999 2.75595 27.0036L7.44768 22.3538C7.93922 21.87 8.60081 21.599 9.28999 21.599C9.97915 21.599 10.6408 21.87 11.1323 22.3538C11.628 22.8392 12.2937 23.111 12.9869 23.111C13.6801 23.111 14.3458 22.8392 14.8414 22.3538L22.2107 14.9733C22.4565 14.7307 22.6517 14.4415 22.785 14.1226C22.9182 13.8038 22.9868 13.4615 22.9868 13.1159C22.9868 12.7702 22.9182 12.428 22.785 12.1091C22.6517 11.7902 22.4565 11.5011 22.2107 11.2584C21.7276 10.7662 21.4569 10.1035 21.4569 9.41331C21.4569 8.72307 21.7276 8.06047 22.2107 7.56817L26.8778 2.89383C27.3735 2.40847 28.0391 2.13672 28.7323 2.13672C29.4257 2.13672 30.0913 2.40847 30.5871 2.89383L31.6679 4.00092C32.9492 5.26726 33.7561 6.9369 33.953 8.72904C34.1499 10.5212 33.7245 12.3266 32.7485 13.8416C27.6637 21.347 21.1939 27.8101 13.6869 32.8834Z"
-                  stroke="#F0F7ED"
-                  stroke-width="2.46154"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                >
+                  <path
+                    d="M13.6869 32.8834C12.1742 33.8607 10.3716 34.2867 8.5822 34.0897C6.79281 33.8925 5.12573 33.0844 3.86134 31.8009L2.75595 30.7184C2.27134 30.2219 2 29.5553 2 28.861C2 28.1668 2.27134 27.4999 2.75595 27.0036L7.44768 22.3538C7.93922 21.87 8.60081 21.599 9.28999 21.599C9.97915 21.599 10.6408 21.87 11.1323 22.3538C11.628 22.8392 12.2937 23.111 12.9869 23.111C13.6801 23.111 14.3458 22.8392 14.8414 22.3538L22.2107 14.9733C22.4565 14.7307 22.6517 14.4415 22.785 14.1226C22.9182 13.8038 22.9868 13.4615 22.9868 13.1159C22.9868 12.7702 22.9182 12.428 22.785 12.1091C22.6517 11.7902 22.4565 11.5011 22.2107 11.2584C21.7276 10.7662 21.4569 10.1035 21.4569 9.41331C21.4569 8.72307 21.7276 8.06047 22.2107 7.56817L26.8778 2.89383C27.3735 2.40847 28.0391 2.13672 28.7323 2.13672C29.4257 2.13672 30.0913 2.40847 30.5871 2.89383L31.6679 4.00092C32.9492 5.26726 33.7561 6.9369 33.953 8.72904C34.1499 10.5212 33.7245 12.3266 32.7485 13.8416C27.6637 21.347 21.1939 27.8101 13.6869 32.8834Z"
+                    stroke="#F0F7ED"
+                    stroke-width="2.46154"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
               <div className="">
                 <h2>Call Us</h2>
                 <p>+2348065109764</p>
@@ -75,49 +77,51 @@ export default function Footer() {
             </div>
 
             <div className="row-item">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="33"
-                height="33"
-                viewBox="0 0 33 33"
-                fill="none"
-              >
-                <path
-                  d="M20.2857 31.4941H2V9.77978L11.1429 1.77979L20.2857 9.77978V31.4941Z"
-                  stroke="#F0F7ED"
-                  stroke-width="2.28571"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M20.2857 31.4941H31.7143V15.4941H20.2857"
-                  stroke="#F0F7ED"
-                  stroke-width="2.28571"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M11.1429 31.4943V26.9229"
-                  stroke="#F0F7ED"
-                  stroke-width="2.28571"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M7.71429 20.0654H14.5714"
-                  stroke="#F0F7ED"
-                  stroke-width="2.28571"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M7.71429 13.2085H14.5714"
-                  stroke="#F0F7ED"
-                  stroke-width="2.28571"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="33"
+                  viewBox="0 0 33 33"
+                  fill="none"
+                >
+                  <path
+                    d="M20.2857 31.4941H2V9.77978L11.1429 1.77979L20.2857 9.77978V31.4941Z"
+                    stroke="#F0F7ED"
+                    stroke-width="2.28571"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M20.2857 31.4941H31.7143V15.4941H20.2857"
+                    stroke="#F0F7ED"
+                    stroke-width="2.28571"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11.1429 31.4943V26.9229"
+                    stroke="#F0F7ED"
+                    stroke-width="2.28571"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7.71429 20.0654H14.5714"
+                    stroke="#F0F7ED"
+                    stroke-width="2.28571"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7.71429 13.2085H14.5714"
+                    stroke="#F0F7ED"
+                    stroke-width="2.28571"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
               <div className="">
                 <h2>Nigeria Address</h2>
                 <p>Futa North gate, Akure.</p>
