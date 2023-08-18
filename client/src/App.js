@@ -15,6 +15,7 @@ import 'swiper/css/navigation';
 import "./components/student/style.css";
 import "./components/student/mediaq.css";
 import "./components/home/index.css"
+import "./components/home/indexquery.css"
 const helmetContext = {};
 
 

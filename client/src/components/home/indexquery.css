@@ -1,0 +1,128 @@
+@media screen and (max-width: 430px) {
+    .gnlife-container-main .main-nav {
+        padding: 20px 15px;
+    }
+
+    .gnlife-container-main .mobile-menu {
+        display: block;
+    }
+
+    .gnlife-container-main .mobile-menu i.ri-close-line {
+        margin: 10px 15px 5px;
+    }
+
+    .gnlife-container-main .navbar.mobile {
+        /* flex-direction: column; */
+        /* justify-content: start; */
+        background: #222;
+        /* width: 100%; */
+        margin-top: 40px;
+    }
+
+    .gnlife-container-main .navbar.mobile ul {
+        display: flex;
+        justify-content: start;
+        margin: 20px;
+        padding: 0;
+        margin: 0;
+        background-color: blue;
+    }
+
+    .gnlife-container-main .nav-flex ul li .active {
+        border: none;
+    }
+
+    .gnlife-container-main .gnlife-banner-section {
+        height: 50vh;
+        margin: 71px 0 0;
+    }
+
+    .gnlife-container-main .gnlife-banner-section .banner-content {
+        padding: 45px 5px;
+    }
+
+    .gnlife-container-main .gnlife-banner-section .banner-content h1 {
+        font-size: 32px;
+    }
+
+    .gnlife-container-main .gnlife-banner-section .banner-content p {
+        font-size: 14px;
+        line-height: 2.5;
+    }
+
+    .gnlife-container-main .gnlife-services {
+        background: #FFD833;
+        padding: 70px 15px;
+    }
+
+    .gnlife-container-main .gnlife-services .services-title,
+    .gnlife-container-main .main-team .main-team-title {
+        margin: 0 0 40px;
+    }
+
+    .gnlife-container-main .services-title h1,
+    .gnlife-container-main .main-team-title h1 {
+        font-size: 32px;
+    }
+
+    .gnlife-container-main .services-title p {
+        font-size: 16px;
+    }
+
+    .gnlife-container-main .services-content .services-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .gnlife-container-main .services-grid .item {
+        padding: 34px 24px;
+    }
+
+
+    .gnlife-container-main .main-team {
+        padding: 70px 15px;
+    }
+
+    .gnlife-container-main .main-team-content .team-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .gnlife-container-main .past-projects {
+        padding: 70px 15px;
+    }
+
+    .gnlife-container-main .past-projects-title {
+        margin: 0 0 50px;
+    }
+
+    .gnlife-container-main .past-projects-title h1 {
+        font-size: 32px;
+    }
+
+    .gnlife-container-main .past-projects .projects {
+        gap: 40px;
+    }
+
+    .gnlife-container-main .past-projects .project {
+        flex-direction: column;
+        height: fit-content;
+        gap: 0;
+    }
+
+    .gnlife-container-main .past-projects .project.reverse {
+        flex-direction: column;
+    }
+
+    .gnlife-container-main .past-projects .project.reverse .project-details {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .gnlife-container-main .project-details p {
+        font-size: 14px;
+    }
+
+
+
+}

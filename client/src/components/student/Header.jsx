@@ -50,20 +50,8 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-            {/* <i
-              id="nav-togggle"
-              onClick={handleNav}
-              class="bi bi-list mobile-nav-toggle"
-            ></i> */}
           </nav>
           <div className="mobile-menu">
-            {/* <a
-              href="https://forms.gle/gKovAv6h6rNu8zCM6"
-              target="_blank"
-              class="register"
-            >
-              Register Now
-            </a> */}
             <i id="nav-togggle" onClick={handleNav} class="ri-menu-line"></i>
             {/* <i class="ri-close-line"></i> */}
           </div>

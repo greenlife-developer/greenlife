@@ -19,38 +19,40 @@ export default function Home() {
         type="landing page"
       />
       <div className="gnlife-container-main">
-        <div className="navigation-container">
-          <Navigation />
-        </div>
-        <section className="gnlife-banner-section">
-          <img src={banner} alt="gnlife-banner" />
-          <div className="banner-content">
-            <div className="">
-              <h1>Welcome to GNLife Tech Network</h1>
-              <p>Innovating Digital Experiences</p>
-            </div>
+        <div className="">
+          <div className="navigation-container">
+            <Navigation />
           </div>
-        </section>
-      </div>
+          <section className="gnlife-banner-section">
+            <img src={banner} alt="gnlife-banner" />
+            <div className="banner-content">
+              <div className="">
+                <h1>Welcome to GNLife Tech Network</h1>
+                <p>Innovating Digital Experiences</p>
+              </div>
+            </div>
+          </section>
+        </div>
 
-      <div className="">
-        <Services />
-      </div>
+        <div className="">
+          <Services />
+        </div>
 
-      <div className="">
-        <Team />
-      </div>
+        <div className="">
+          <Team />
+        </div>
 
-      <div className="">
-        <Previous />
-      </div>
+        <div className="">
+          <Previous />
+        </div>
 
-      <div className="">
-        <ClientsTestimony />
-      </div>
+        <div className="">
+          <ClientsTestimony />
+        </div>
 
-      <div className="">
-        <Footer />
+        <div className="">
+          <Footer />
+        </div>
       </div>
 
       {/* <h3>Coming soon...</h3>

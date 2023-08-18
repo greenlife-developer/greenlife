@@ -5,7 +5,7 @@
 
 
 /* MAIN NAVIGATION FOR SERVICES */
-.main-nav {
+.gnlife-container-main .main-nav {
     background: #222222;
     padding: 0 80px;
     position: fixed;
@@ -16,22 +16,26 @@
     color: #F0F7ED;
 }
 
-.main-nav .nav-flex {
+.gnlife-container-main .main-nav .nav-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-flex .logo {
+.gnlife-container-main .mobile-menu{
+    display: none;
+}
+
+.gnlife-container-main .nav-flex .logo {
     display: flex;
     align-items: center;
 }
 
-.nav-flex .logo img {
+.gnlife-container-main .nav-flex .logo img {
     width: 30px;
 }
 
-.nav-flex .logo a {
+.gnlife-container-main .nav-flex .logo a {
     color: #F0F7ED;
     font-size: 18px;
     margin: 0 8px 0;
@@ -40,30 +44,30 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav-flex .navbar ul {
+.gnlife-container-main .nav-flex .navbar ul {
     display: flex;
     align-items: center;
 }
 
-.nav-flex .navbar ul li {
+.gnlife-container-main .nav-flex .navbar ul li {
     padding: 15px 0px 15px 30px;
 }
 
-.nav-flex .navbar ul li a {
+.gnlife-container-main .nav-flex .navbar ul li a {
     color: #F0F7ED;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     padding: 0 0 13px;
 }
 
-.nav-flex ul li .active {
+.gnlife-container-main .nav-flex ul li .active {
     border-bottom: 4px solid #F0F7ED;
 }
 
 /* END OF MAIN NAVIGATION FOR SERVICES */
 
 /* BANNER SECTION  */
-.gnlife-banner-section {
+.gnlife-container-main .gnlife-banner-section {
     position: relative;
     width: 100%;
     height: 86vh;
@@ -71,7 +75,7 @@
     margin-top: 50px;
 }
 
-.gnlife-banner-section::before {
+.gnlife-container-main .gnlife-banner-section::before {
     content: "";
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -81,13 +85,13 @@
     right: 0;
 }
 
-.gnlife-banner-section img {
+.gnlife-container-main .gnlife-banner-section img {
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
 
-.gnlife-banner-section .banner-content {
+.gnlife-container-main .gnlife-banner-section .banner-content {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -105,7 +109,7 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
-.gnlife-banner-section .banner-content h1 {
+.gnlife-container-main .gnlife-banner-section .banner-content h1 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 106px;
@@ -114,7 +118,7 @@
     font-weight: 600;
 }
 
-.gnlife-banner-section .banner-content p {
+.gnlife-container-main .gnlife-banner-section .banner-content p {
     text-align: center;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
@@ -126,13 +130,13 @@
 
 
 /* SERVICES SECTION  */
-.gnlife-services {
+.gnlife-container-main .gnlife-services {
     background: #FFD833;
     padding: 150px 80px;
 }
 
-.gnlife-services .services-title,
-.main-team .main-team-title {
+.gnlife-container-main .gnlife-services .services-title,
+.gnlife-container-main .main-team .main-team-title {
     display: flex;
     width: 100%;
     /* background: red; */
@@ -141,34 +145,34 @@
     justify-content: center;
 }
 
-.services-title h1,
-.main-team-title h1,
-.services-title p {
+.gnlife-container-main .services-title h1,
+.gnlife-container-main .main-team-title h1,
+.gnlife-container-main .services-title p {
     text-align: center;
     color: #2C2C2C;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
 
-.services-title h1,
-.main-team-title h1 {
+.gnlife-container-main .services-title h1,
+.gnlife-container-main .main-team-title h1 {
     font-size: 72px;
     font-weight: 700;
 }
 
-.services-title p {
+.gnlife-container-main .services-title p {
     font-size: 24px;
     font-weight: 300;
 }
 
-.services-content .services-grid {
+.gnlife-container-main .services-content .services-grid {
     background: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
 }
 
-.services-grid .item {
+.gnlife-container-main .services-grid .item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,29 +182,29 @@
     border: 1.95px solid #2C2C2C;
 }
 
-.services-grid .item.background {
+.gnlife-container-main .services-grid .item.background {
     background: #222;
 }
 
-.services-grid .item.background * {
+.gnlife-container-main .services-grid .item.background * {
     color: #F0F7ED;
 }
 
-.services-grid .item img {
+.gnlife-container-main .services-grid .item img {
     text-align: center;
     width: 104px;
     height: 104px;
     margin: 0 0 48px;
 }
 
-.services-grid .item h3 {
+.gnlife-container-main .services-grid .item h3 {
     font-size: 41px;
     color: #222;
     text-align: center;
     line-height: normal;
 }
 
-.services-grid .item p {
+.gnlife-container-main .services-grid .item p {
     font-size: 16px;
     color: #222;
     text-align: center;
@@ -212,22 +216,22 @@
 
 
 /* TEAM SECTION */
-.main-team {
+.gnlife-container-main .main-team {
     background: #222;
     padding: 150px 80px;
 }
 
-.main-team-title h1 {
+.gnlife-container-main .main-team-title h1 {
     color: #FFD833;
 }
 
-.main-team-content .team-grid {
+.gnlife-container-main .main-team-content .team-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
 }
 
-.main-team .main-team-content .item {
+.gnlife-container-main .main-team .main-team-content .item {
     height: 570px;
     position: relative;
     border-radius: 32px;
@@ -236,7 +240,7 @@
     transition: all 1s ease-in-out;
 }
 
-.item .member-details {
+.gnlife-container-main .item .member-details {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -250,7 +254,7 @@
     padding: 36px 5px;
 }
 
-.member-details span {
+.gnlife-container-main .member-details span {
     display: block;
     font-size: 10px;
     font-weight: 300;
@@ -258,27 +262,27 @@
     text-align: center;
 }
 
-.member-details * {
+.gnlife-container-main .member-details * {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.member-details .hover {
+.gnlife-container-main .member-details .hover {
     display: none;
 }
 
-.item:hover .hover {
+.gnlife-container-main .item:hover .hover {
     display: block;
     transform: scale(1.1);
 }
 
-.member-details h1 {
+.gnlife-container-main .member-details h1 {
     font-size: 41px;
     font-weight: 700;
     margin: 0 0 12px;
 }
 
-.member-details p {
+.gnlife-container-main .member-details p {
     font-size: 24px;
     font-weight: 300;
     transition: all 2s ease;
@@ -289,16 +293,16 @@
 
 
 /* PROJECTS WORKED ON */
-.past-projects {
+.gnlife-container-main .past-projects {
     background: #222;
     padding: 150px 80px;
 }
 
-.past-projects-title {
+.gnlife-container-main .past-projects-title {
     margin: 0 0 120px;
 }
 
-.past-projects-title h1 {
+.gnlife-container-main .past-projects-title h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 72px;
     text-align: center;
@@ -306,13 +310,13 @@
     font-weight: 700;
 }
 
-.past-projects .projects {
+.gnlife-container-main .past-projects .projects {
     display: grid;
     grid-template-columns: 1fr;
     gap: 120px;
 }
 
-.past-projects .project {
+.gnlife-container-main .past-projects .project {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -323,47 +327,47 @@
     gap: 70px;
 }
 
-.project-img {
+.gnlife-container-main .project-img {
     height: 100%;
 }
 
-.past-projects .project.reverse {
+.gnlife-container-main .past-projects .project.reverse {
     flex-direction: row-reverse;
 }
 
-.past-projects .project.reverse .project-details {
+.gnlife-container-main .past-projects .project.reverse .project-details {
     flex-direction: row-reverse;
     margin: 48px 0 48px 48px;
 }
 
-.past-projects .project.reverse .project-img img {
+.gnlife-container-main .past-projects .project.reverse .project-img img {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 32px;
     border-bottom-right-radius: 32px;
 }
 
-.project-img img {
+.gnlife-container-main .project-img img {
     border-top-left-radius: 32px;
     height: 100%;
     border-bottom-left-radius: 32px;
 }
 
-.project .project-details {
+.gnlife-container-main .project .project-details {
     margin: 48px 10px;
     color: #F0F7ED;
 }
 
-.project-details h1 {
+.gnlife-container-main .project-details h1 {
     font-size: 58px;
     margin: 0 0 16px;
 }
 
-.project-details .p-title {
+.gnlife-container-main .project-details .p-title {
     margin: 0 0 16px;
 }
 
-.project-details .p-title span {
+.gnlife-container-main .project-details .p-title span {
     display: inline-block;
     padding: 12px;
     text-transform: capitalize;
@@ -374,7 +378,7 @@
     font-size: 12px;
 }
 
-.project-details p {
+.gnlife-container-main .project-details p {
     font-size: 24px;
 }
 
@@ -382,16 +386,16 @@
 
 
 /* CLIENTS TESTIMONIAL SECTION */
-.clients-testimonials {
+.gnlife-container-main .clients-testimonials {
     background: #295F2D;
     padding: 150px 0;
 }
 
-.testimonial-title{
+.gnlife-container-main .testimonial-title{
     margin: 0 0 120px;
 }
 
-.testimonial-title h1 {
+.gnlife-container-main .testimonial-title h1 {
     font-size: 72px;
     font-style: normal;
     font-weight: 700;
@@ -402,7 +406,7 @@
     color: #F0F7ED;
 }
 
-.testimonial-items {
+.gnlife-container-main .testimonial-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 80px;
@@ -410,51 +414,51 @@
     overflow-x: scroll;
 }
 
-.testimonial-items.items2{
+.gnlife-container-main .testimonial-items.items2{
     padding: 0 80px;
     justify-content: center;
 }
 
-.testimonial-items::-webkit-scrollbar {
+.gnlife-container-main .testimonial-items::-webkit-scrollbar {
     width: 0;
     height: 36px;
 }
 
 /* Track */
-.testimonial-items::-webkit-scrollbar-track {
+.gnlife-container-main .testimonial-items::-webkit-scrollbar-track {
     display: none;
 }
 
-.testimonial-items .item{
+.gnlife-container-main .testimonial-items .item{
     display: flex;
     justify-content: center;
     width: 496px;
     border-radius: 32px;
 }
 
-.item .item-info{
+.gnlife-container-main .item .item-info{
     background: #2C2C2C;
     border-top-right-radius: 32px;
     border-top-left-radius: 32px;
     padding: 16px 12px;
 }
 
-.testimonial-items .item *{
+.gnlife-container-main .testimonial-items .item *{
     text-align: center;
     color: #F0F7ED;
 }
 
-.item-info h3{
+.gnlife-container-main .item-info h3{
     font-size: 24px;
     margin: 0 0 6px;
 }
 
-.item-info p{
+.gnlife-container-main .item-info p{
     font-size: 10px;
     margin: 0 0 6px;
 }
 
-.testimonial-items .item-content{
+.gnlife-container-main .testimonial-items .item-content{
     background: #222;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
@@ -462,11 +466,11 @@
     gap: 24px;
 }
 
-.testimonial-items .item-content h4{
+.gnlife-container-main .testimonial-items .item-content h4{
     font-weight: 300;
 }
 
-.testimonial-items .item img{
+.gnlife-container-main .testimonial-items .item img{
     width: 86px;
     height: 86px;
     margin: 0 0 12px;
@@ -479,28 +483,28 @@
 
 /* FOOTER SECTION */
 
-.footer{
+.gnlife-container-main .footer{
     padding: 150px 80px;
     background: #222;
 }
 
-.footer-items{
+.gnlife-container-main .footer-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
 }
 
-.footer-items .item h1{
+.gnlife-container-main .footer-items .item h1{
     font-size: 96px;
     margin: 0 0 24px;
     color: #F0F7ED;
 }
 
-.footer-items .icons svg{
+.gnlife-container-main .footer-items .icons svg{
     margin-right: 10px;
 }
 
-.footer-items .row-item{
+.gnlife-container-main .footer-items .row-item{
     display: flex;
     align-items: center;
     padding: 32px;
@@ -510,19 +514,19 @@
     background: #2C2C2C;
 }
 
-.row-item h2{
+.gnlife-container-main .row-item h2{
     font-size: 29px;
     font-weight: 700;
     color: #F0F7ED;
 }
 
-.row-item p{
+.gnlife-container-main .row-item p{
     font-size: 24px;
     font-weight: 300;
     color: #F0F7ED;
 }
 
-.row-item span{
+.gnlife-container-main .row-item span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -531,12 +535,6 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-
-}
-
-.row-item svg{
-    /* padding: 5px; */
-    /* border-radius: 50%; */
 
 }
 

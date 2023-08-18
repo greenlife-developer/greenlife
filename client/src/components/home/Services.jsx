@@ -10,7 +10,7 @@ export default function Services() {
       <div className="services-title">
         <div className="">
           <h1>Our services</h1>
-          <p>We are a team of experts in various fields, growing new talents</p>
+          <p>our Team offers an innovating Digital Experience</p>
         </div>
       </div>
 
