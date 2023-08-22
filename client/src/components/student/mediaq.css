@@ -15,7 +15,7 @@
         display: none;
     }
 
-    .navbar-mobile{
+    .students .navbar-mobile{
         position: absolute;
         display: block;
         background: #fff;
@@ -28,23 +28,22 @@
         right: 0;
         left: 0;
         transition: all 1.5s ease;
-
     }
 
-    .navbar ul{
+    .students .navbar ul{
         flex-direction: column;
     }
 
-    .mobile-menu {
+    .students .mobile-menu {
         display: block;
     }
 
-    .mobile-menu i {
+    .students .mobile-menu i {
         font-size: 28px;
         margin: 0 0 0 15px;
     }
 
-    .mobile-menu i.ri-close-line {
+    .students .mobile-menu i.ri-close-line {
         position: absolute;
         top: 0;
         right: 0;

@@ -22,7 +22,7 @@ export default function Navigation() {
             <a href="/">GNLIFE TECH NETWORK</a>
           </h1>
 
-          <nav id="navbar" class="navbar mobile">
+          <nav id="navbar" class="navbar">
             <ul>
               <li>
                 <NavLink to="/">Home</NavLink>
