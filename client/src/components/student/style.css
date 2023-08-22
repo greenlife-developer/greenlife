@@ -404,8 +404,8 @@ ul li::before {
 }
 
 .gnlife-courses .row .course-item {
-  width: 334px;
-  height: 500px;
+  /* width: 334px; */
+  height: 550px;
   border: 1px solid #ddd;
 }
 
@@ -508,8 +508,8 @@ ul li::before {
 }
 
 .gnlife-trainers .row .trainer-box {
-  width: 324px;
-  height: 500px;
+  /* width: 324px; */
+  height: 520px;
   border: 1px solid #ddd;
 }
 
@@ -812,7 +812,6 @@ textarea:focus {
 .students-testimonials .row {
   display: flex;
   margin: 40px 0 80px;
-  /* padding-left:  24px; */
   gap: 50px;
 }
 
@@ -820,9 +819,8 @@ textarea:focus {
   border: 1px solid #ddd;
   position: relative;
   background: #fff;
-  height: 300px;
+  height: 350px;
   margin-left: 25px;
-  width: 330px;
   border-radius: 5px;
   padding: 30px 20px 30px 60px;
 }

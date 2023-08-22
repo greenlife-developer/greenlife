@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import chart from "../../images/chart.png";
 import code from "../../images/code-circle.png";
 import path from "../../images/path-square.png";
@@ -42,9 +43,8 @@ export default function Services() {
             <h3>Graphic Design | UI/UX Design</h3>
             <p>
               User-centric design lies at the heart of every successful digital
-              product. Our designers create intuitive and visually
-              appealing interfaces that enhance user engagement and
-              satisfaction.
+              product. Our designers create intuitive and visually appealing
+              interfaces that enhance user engagement and satisfaction.
             </p>
           </div>
 
@@ -58,6 +58,10 @@ export default function Services() {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="action">
+        <Link to="/about">Contact Us Now</Link>
       </div>
     </section>
   );
