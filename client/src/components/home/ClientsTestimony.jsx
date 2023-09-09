@@ -1,6 +1,7 @@
 import React from "react";
-import team3 from "../../images/team/team-3.jpg";
+import testimony1 from "../../images/testimony/testimony-1.jpg";
 import TestimonialItem from "./TestimonialItem";
+import team3 from "./TestimonialItem";
 
 export default function ClientsTestimony() {
   return (
@@ -14,9 +15,9 @@ export default function ClientsTestimony() {
       <div className="testimonial-content">
         <div className="testimonial-items">
           <TestimonialItem
-            img={team3}
-            name="Afolabi Opeyemi"
-            title="CEO, GNLife"
+            img={testimony1}
+            name="Onaolapo Marvelous"
+            title="CEO, MaestroMarv Tech Solutions"
             content="We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website. We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website."
           />
           <TestimonialItem

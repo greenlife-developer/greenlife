@@ -251,7 +251,8 @@
     position: relative;
     border-radius: 32px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
+    background-color: #FFD833;
     transition: all 1s ease-in-out;
 }
 
@@ -264,9 +265,9 @@
     background-color: #2C2C2C;
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
-    transition: all 1s ease-in-out;
     color: #F0F7ED;
     padding: 36px 5px;
+    transition: all 1s;
 }
 
 .gnlife-container-main .member-details span {
@@ -286,9 +287,14 @@
     display: none;
 }
 
+/* .gnlife-container-main .member-details:hover .hover {
+    display: block;
+} */
+
 .gnlife-container-main .item:hover .hover {
     display: block;
-    transform: scale(1.1);
+    transition: all 1s ease;
+    /* transform: scale(1.1); */
 }
 
 .gnlife-container-main .member-details h1 {

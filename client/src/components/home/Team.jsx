@@ -47,12 +47,12 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="item" style={{ backgroundImage: `url(${team1})` }}>
+          <div className="item" style={{ backgroundImage: `url(${team1}ul)` }}>
             {/* <img src={video} alt="video editing" /> */}
             <div className="member-details">
-              <h1>Afolabi Opeyemi</h1>
+              <h1>Samuel</h1>
               <div className="hover">
-                <p>Web development</p>
+                <p>Mobile App Development</p>
                 <span>MERN stack developer, Tech Enthusiast</span>
               </div>
             </div>

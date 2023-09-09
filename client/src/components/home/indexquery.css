@@ -217,6 +217,17 @@
         margin: 0 0 24px;
     }
 
+    .gnlife-container-main .row-item h2 {
+        font-size: 22px;
 
+    }
+
+    .gnlife-container-main .row-item p{
+        font-size: 18px;
+    }
+
+    .gnlife-container-main .footer-items .row-item{
+        gap: 28px;
+    }
 
 }
