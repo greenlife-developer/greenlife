@@ -17,18 +17,16 @@ export default function Previous() {
               <img src={team2} alt="" />
             </div>
             <div className="project-details">
-              <h1>Project Title</h1>
+              <h1>Website Application</h1>
               <div className="p-title">
                 <span>Website Development</span>
                 <span>UI/UX Design</span>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                A website that allows gadget repair and sales businesses to
+                showcase their services, sell electronics devices online, and
+                manage their e-commerce store. The website also includes a
+                booking system for customers to make appointments.
               </p>
             </div>
           </div>
@@ -38,18 +36,16 @@ export default function Previous() {
               <img src={team2} alt="" />
             </div>
             <div className="project-details">
-              <h1>Project Title</h1>
+              <h1>Website Application</h1>
               <div className="p-title">
                 <span>Website Development</span>
                 <span>UI/UX Design</span>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                A web application that can track and record daily sales of a
+                shop, and calculate the total net worth of the physical store.
+                It has features for recording daily sales, goods in store, their
+                prices, and quantities.
               </p>
             </div>
           </div>
