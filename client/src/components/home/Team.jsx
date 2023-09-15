@@ -2,6 +2,7 @@ import React from "react";
 import team1 from "../../images/team/team-1.png";
 import team2 from "../../images/team/team-2.png";
 import team3 from "../../images/team/team-3.jpg";
+// import team4 from "text";
 
 export default function Team() {
   return (
@@ -14,8 +15,8 @@ export default function Team() {
 
       <div className="main-team-content">
         <div className="team-grid">
-          <div className="item" style={{ backgroundImage: `url(${team1})` }}>
-            {/* <img src={video} alt="video editing" /> */}
+          <div className="item" >
+            <img src={team1} alt="video editing" />
             <div className="member-details">
               <h1>Jesumuyiwa Grace</h1>
               <div className="hover">
@@ -25,8 +26,8 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="item" style={{ backgroundImage: `url(${team2})` }}>
-            {/* <img src={video} alt="video editing" /> */}
+          <div className="item">
+            <img src={team2} alt="video editing" />
             <div className="member-details">
               <h1>Efosa Osiomwanuri</h1>
               <div className="hover">
@@ -36,8 +37,8 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="item" style={{ backgroundImage: `url(${team3})` }}>
-            {/* <img src={video} alt="video editing" /> */}
+          <div className="item">
+            <img src={team3} alt="video editing" />
             <div className="member-details">
               <h1>Afolabi Opeyemi</h1>
               <div className="hover">
@@ -47,8 +48,8 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="item" style={{ backgroundImage: `url(${team1}ul)` }}>
-            {/* <img src={video} alt="video editing" /> */}
+          <div className="item">
+            <img src={"team4"} alt="video editing" />
             <div className="member-details">
               <h1>Samuel</h1>
               <div className="hover">

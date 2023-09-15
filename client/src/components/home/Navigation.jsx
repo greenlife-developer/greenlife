@@ -34,6 +34,9 @@ export default function Navigation() {
                 <NavLink to="/blog">Blog</NavLink>
               </li>
               <li>
+                <NavLink to="/students">Students</NavLink>
+              </li>
+              <li>
                 <NavLink to="/about">About Us</NavLink>
               </li>
             </ul>

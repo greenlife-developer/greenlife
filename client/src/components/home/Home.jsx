@@ -27,7 +27,7 @@ export default function Home() {
             <img src={banner} alt="gnlife-banner" />
             <div className="banner-content">
               <div className="">
-                <h1>Welcome to GNLife Tech Network</h1>
+                <h1>Welcome to, <br /> GNLIFE Tech Network</h1>
                 <p>Innovating Digital Experiences</p>
               </div>
             </div>

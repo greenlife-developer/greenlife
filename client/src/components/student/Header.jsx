@@ -18,7 +18,7 @@ export default function Header() {
         <div class="container d-flex align-items-center">
           <div class="logo me-auto">
             <img src={logo} alt="" />
-            <a href="/students">GNLife Tech Network</a>
+            <a href="/students">GNLife learning</a>
           </div>
           {/* <!-- Uncomment below if you prefer to use an image logo --> */}
           {/* <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
@@ -26,7 +26,7 @@ export default function Header() {
           <nav id="navbar" class="navbar">
             <ul>
               <li>
-                <NavLink to="/students">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
                 <NavLink to="/about">About</NavLink>

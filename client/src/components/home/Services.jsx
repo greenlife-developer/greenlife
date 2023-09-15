@@ -61,7 +61,7 @@ export default function Services() {
       </div>
 
       <div className="action">
-        <Link to="/about">Contact Us Now</Link>
+        <Link to="/services">Contact Us Now</Link>
       </div>
     </section>
   );

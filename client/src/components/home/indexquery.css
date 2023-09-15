@@ -1,3 +1,72 @@
+@media screen and (max-width: 1024px) {
+    .gnlife-container-main .past-projects .project {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 448px;
+        width: 100%;
+        background: #2C2C2C;
+        border-radius: 32px;
+        gap: 70px;
+    }
+
+    .gnlife-container-main .project-img {
+        height: 100%;
+        width: 40%;
+    }
+
+    .gnlife-container-main .past-projects .project.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .gnlife-container-main .past-projects .project.reverse .project-details {
+        flex-direction: row-reverse;
+        margin: 32px 0 32px 32px;
+    }
+
+    .gnlife-container-main .past-projects .project.reverse .project-img img {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 32px;
+        border-bottom-right-radius: 32px;
+    }
+
+    .gnlife-container-main .project-img img {
+        border-top-left-radius: 32px;
+        height: 100%;
+        border-bottom-left-radius: 32px;
+    }
+
+    .gnlife-container-main .project .project-details {
+        margin: 28px 10px;
+        color: #F0F7ED;
+    }
+
+    .gnlife-container-main .project-details h1 {
+        font-size: 46px;
+        margin: 0 0 16px;
+    }
+
+    .gnlife-container-main .project-details .p-title {
+        margin: 0 0 16px;
+    }
+
+    .gnlife-container-main .project-details .p-title span {
+        display: inline-block;
+        padding: 12px;
+        text-transform: capitalize;
+        background: #333;
+        font-weight: 400;
+        border-radius: 12px;
+        margin-right: 12px;
+        font-size: 12px;
+    }
+
+    .gnlife-container-main .project-details p {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .gnlife-container-main .main-nav {
         padding: 20px 15px;
@@ -62,7 +131,7 @@
     }
 
     .gnlife-container-main .gnlife-banner-section {
-        height: 60vh;
+        height: 90vh;
         margin: 71px 0 0;
     }
 
@@ -74,6 +143,8 @@
 
     .gnlife-container-main .gnlife-banner-section .banner-content {
         padding: 65px 5px 0;
+        display: flex;
+        align-items: center;
     }
 
     .gnlife-container-main .gnlife-banner-section .banner-content h1 {
@@ -222,11 +293,11 @@
 
     }
 
-    .gnlife-container-main .row-item p{
+    .gnlife-container-main .row-item p {
         font-size: 18px;
     }
 
-    .gnlife-container-main .footer-items .row-item{
+    .gnlife-container-main .footer-items .row-item {
         gap: 28px;
     }
 
