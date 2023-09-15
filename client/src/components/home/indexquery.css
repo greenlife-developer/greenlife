@@ -1,11 +1,7 @@
 @media screen and (max-width: 1024px) {
-    .gnlife-container-main .past-projects .project {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    /* .gnlife-container-main .past-projects .project {
         height: 448px;
         width: 100%;
-        background: #2C2C2C;
         border-radius: 32px;
         gap: 70px;
     }
@@ -32,14 +28,11 @@
     }
 
     .gnlife-container-main .project-img img {
-        border-top-left-radius: 32px;
         height: 100%;
-        border-bottom-left-radius: 32px;
     }
 
     .gnlife-container-main .project .project-details {
         margin: 28px 10px;
-        color: #F0F7ED;
     }
 
     .gnlife-container-main .project-details h1 {
@@ -52,11 +45,7 @@
     }
 
     .gnlife-container-main .project-details .p-title span {
-        display: inline-block;
         padding: 12px;
-        text-transform: capitalize;
-        background: #333;
-        font-weight: 400;
         border-radius: 12px;
         margin-right: 12px;
         font-size: 12px;
@@ -64,7 +53,7 @@
 
     .gnlife-container-main .project-details p {
         font-size: 18px;
-    }
+    } */
 }
 
 @media screen and (max-width: 430px) {
@@ -131,7 +120,7 @@
     }
 
     .gnlife-container-main .gnlife-banner-section {
-        height: 90vh;
+        height: 85vh;
         margin: 71px 0 0;
     }
 
@@ -142,8 +131,11 @@
     }
 
     .gnlife-container-main .gnlife-banner-section .banner-content {
-        padding: 65px 5px 0;
+        padding: 0 0 0;
         display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: blue;
         align-items: center;
     }
 
