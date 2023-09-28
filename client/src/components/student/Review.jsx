@@ -77,16 +77,17 @@ export default function App() {
           <div class="testimonial-wrap">
             <div class="testimonial-item">
               <img
-                src="assets/img/testimonials/testimonials-1.jpg"
+                src="assets/img/testimonials/testimonials-3.jpg"
                 class="testimonial-img"
                 alt="gnlife testimonials"
               />
-              <h3>Ireoluwa Ajetumobi</h3>
+              <h3>Ajibola</h3>
               <h4>Student</h4>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Working as a developer at GNLife is an experience I am grateful
-                for because our students are really growing and they are happy.
+                GNLIFE has really improved my coding skills. The tutors are good
+                at what they do, and they are also good listeners in answering
+                our questions. Thanks to GNLIFE
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>

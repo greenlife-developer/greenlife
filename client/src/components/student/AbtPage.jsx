@@ -5,11 +5,7 @@ export default function AbtPage() {
     <section id="about" class="about-gnlife">
       <div class="container" data-aos="fade-up">
         <div class="row">
-          <div
-            class="about-img"
-            data-aos="fade-left"
-            data-aos-delay="100"
-          >
+          <div class="about-img" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/about.jpg" class="" alt="" />
           </div>
           <div class="content">
@@ -24,17 +20,21 @@ export default function AbtPage() {
             <ul role="list">
               <li data-icon="">
                 <i class="ri-checkbox-circle-line"></i>
-                Learn from professional in a conducive environment.
+                <span>Learn from professional in a conducive environment.</span>
               </li>
               <li data-icon="">
                 <i class="ri-checkbox-circle-line"></i>
-                Be a part of a fast growing community of skilled and in-demand
-                individuals.
+                <span>
+                  Be a part of a fast growing community of skilled and in-demand
+                  individuals.
+                </span>
               </li>
               <li data-icon="">
                 <i class="ri-checkbox-circle-line"></i>
-                Develop personal projects paying little or no amount with the
-                help of the community.
+                <span>
+                  Develop personal projects paying little or no amount with the
+                  help of the community.
+                </span>
               </li>
             </ul>
             <p>

@@ -5,17 +5,19 @@ import Home from "./components/home/Home";
 import Students from "./components/student/Students";
 import Contact from "./components/contacts/Contact";
 import About from './components/student/About';
-import Courses from './components/student/Courses';
+import Courses from './components/student/course/Courses';
 import Trainers from './components/student/Trainers';
+import Service from './components/services/Service';
 import 'remixicon/fonts/remixicon.css';
 import 'swiper/css/bundle';
 import 'swiper/css';
 import "swiper/css/pagination";
 import 'swiper/css/navigation';
-import "./components/student/style.css";
-import "./components/student/mediaq.css";
-import "./components/home/index.css"
-import "./components/home/indexquery.css"
+import "./css/style.css";
+import "./css/mediaq.css";
+import "./css/index.css";
+import "./css/service.css";
+import "./css/indexquery.css";
 const helmetContext = {};
 
 
@@ -35,6 +37,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/trainers" element={<Trainers />} />
+            <Route path="/services" element={<Service />} />
             
           </Routes>
         </Router>

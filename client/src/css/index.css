@@ -318,7 +318,7 @@
 }
 
 .gnlife-container-main .member-details h1 {
-    font-size: 41px;
+    font-size: 36px;
     font-weight: 700;
     margin: 0 0 12px;
 }
@@ -370,7 +370,7 @@
 
 .gnlife-container-main .project-img {
     height: 100%;
-    /* width: 100%; */
+    width: 50%;
 }
 
 .gnlife-container-main .past-projects .project.reverse {
@@ -379,6 +379,7 @@
 
 .gnlife-container-main .past-projects .project.reverse .project-details {
     flex-direction: row-reverse;
+    width: 50%;
     margin: 48px 0 48px 48px;
 }
 
@@ -391,17 +392,20 @@
 
 .gnlife-container-main .project-img img {
     border-top-left-radius: 32px;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-bottom-left-radius: 32px;
 }
 
 .gnlife-container-main .project .project-details {
     margin: 48px 10px;
+    width: 50%;
     color: #F0F7ED;
 }
 
 .gnlife-container-main .project-details h1 {
-    font-size: 58px;
+    font-size: 48px;
     margin: 0 0 16px;
 }
 

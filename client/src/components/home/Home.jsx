@@ -3,7 +3,7 @@ import SEO from "../SEO";
 import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import banner from "../../images/baaa.png";
-import Services from "./Services";
+import Services from "../services/Services";
 import Team from "./Team";
 import Previous from "./Previous";
 import ClientsTestimony from "./ClientsTestimony";

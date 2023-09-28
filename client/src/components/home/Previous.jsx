@@ -1,5 +1,6 @@
 import React from "react";
-import team2 from "../../images/team/team-2.png";
+import maestro from "../../images/projects/maestromarv.PNG";
+import invent from "../../images/projects/inventory.PNG";
 
 export default function Previous() {
   return (
@@ -14,7 +15,7 @@ export default function Previous() {
         <div className="projects">
           <div className="project">
             <div className="project-img">
-              <img src={team2} alt="" />
+              <img src={maestro} alt="" />
             </div>
             <div className="project-details">
               <h1>Website Application</h1>
@@ -33,7 +34,7 @@ export default function Previous() {
 
           <div className="project reverse">
             <div className="project-img">
-              <img src={team2} alt="" />
+              <img src={invent} alt="" />
             </div>
             <div className="project-details">
               <h1>Website Application</h1>

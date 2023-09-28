@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import AbtPage from "./AbtPage";
 import Testimonials from "./Testimonials";
-import Counts from "./Counts";
+import Counts from "./course/Counts";
 
 export default function About() {
   useEffect(() => {

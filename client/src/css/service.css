@@ -1,0 +1,79 @@
+.service-page{
+    margin-top: 60px;
+}
+
+.service-tabs{
+    padding: 0 80px;
+}
+
+.service{
+    /* background: red; */
+    /* padding: 10px 30px; */
+}
+
+.service h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service .service-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.service-grid .item{
+    display: flex;
+}
+
+.service-grid .item i{
+    font-size: 18px;
+    padding: 0 20px 0 0;
+}
+
+.service-grid .item span{
+    font-size: 16px;
+}
+
+.service .description{
+    /* background: violet; */
+}
+
+.service .description p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.service .description h3{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.service .description ul{
+    list-style-type: disc;
+}
+
+.service .description ul li{
+    font-size: 18px;
+    display: flex;
+}
+
+.service .description ul li i{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 430px){
+    .service-page{
+        margin-top: 80px;
+    }
+    
+    .service-tabs{
+        padding: 0 15px;
+    }
+
+    .service .service-grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}

@@ -5,10 +5,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 // import "./style.css";
 import AbtPage from "./AbtPage";
-import CoursesPage from "./CoursesPage";
+import CoursesPage from "./course/CoursesPage";
 import TrainersPage from "./TrainersPage";
 import Features from "./Features";
-import Counts from "./Counts";
+import Counts from "./course/Counts";
 import SEO from "../SEO";
 import Testimonials from "./Testimonials";
 

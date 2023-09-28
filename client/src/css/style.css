@@ -119,7 +119,7 @@ a {
 .gnlife-banner {
   width: 100%;
   height: 80vh;
-  background: url("../../../public/assets/img/hero-bg.jpg") top center;
+  background: url("../../public/assets/img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   display: flex;
@@ -829,6 +829,7 @@ textarea:focus {
   width: 60px;
   height: 60px;
   position: absolute;
+  object-fit: cover;
   top: 30px;
   left: -9%;
 }

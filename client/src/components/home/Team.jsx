@@ -48,7 +48,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="item">
+          {/* <div className="item">
             <img src={"team4"} alt="video editing" />
             <div className="member-details">
               <h1>Samuel</h1>
@@ -57,7 +57,7 @@ export default function Team() {
                 <span>MERN stack developer, Tech Enthusiast</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
