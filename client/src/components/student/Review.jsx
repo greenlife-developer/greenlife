@@ -25,7 +25,7 @@ export default function App() {
             translate: [0, 0, -400],
           },
           next: {
-            // will set `translateX(100%)` on next slides
+            // will set `translateX(100%)` on* next slides
             translate: ["100%", 0, 0],
           },
         }}
@@ -41,7 +41,7 @@ export default function App() {
             slidesPerView: 2,
             spaceBetween: 30,
           },
-          // when window width is >= 640px
+          // when window width is >= 640px***
           640: {
             slidesPerView: 3,
             spaceBetween: 40,
@@ -85,9 +85,9 @@ export default function App() {
               <h4>Student</h4>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                GNLIFE has really improved my coding skills. The tutors are good
-                at what they do, and they are also good listeners in answering
-                our questions. Thanks to GNLIFE
+                GNLIFE has really improved my coding skills. The tutors are
+                good at what they do, and they are also good listeners in
+                answering our questions. Thanks to GNLIFE
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
@@ -97,22 +97,23 @@ export default function App() {
           <div class="testimonial-wrap">
             <div class="testimonial-item">
               <img
-                src="assets/img/testimonials/testimonials-1.jpg"
+                src="assets/img/testimonials/testimonials-4.JPG"
                 class="testimonial-img"
                 alt="gnlife testimonials"
               />
-              <h3>Oderinde Samuel</h3>
+              <h3>Ajetumobi Ireoluwa</h3>
               <h4>Student</h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Working as a developer at GNLife is an experience I am grateful
-                for because our students are really growing and they are happy.
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>I am very
+                happy and exited to be a student at GNLIFE. I started as a
+                nobody in the tech field and now I make professional websites.
+                Thank you GNLife!
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div class="testimonial-wrap">
             <div class="testimonial-item">
               <img
@@ -130,7 +131,7 @@ export default function App() {
               </p>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
         <SwiperSlide>Slide 7</SwiperSlide>

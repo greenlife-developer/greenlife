@@ -8,6 +8,7 @@
 
 .service{
     /* background: red; */
+    width: 100%; 
     /* padding: 10px 30px; */
 }
 
@@ -185,6 +186,10 @@
 @media screen and (max-width: 430px){
     .service-page{
         margin-top: 80px;
+    }
+
+    .service-header h1, .service-grid h1, .description h1{
+        font-size: 24px;
     }
     
     .service-tabs{

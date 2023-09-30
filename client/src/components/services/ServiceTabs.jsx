@@ -76,9 +76,9 @@ export default function ServiceTabs() {
                 },
               }}
             >
-              <Space>
+              {/* <Space> */}
                 <Tabs defaultActiveKey="1" itemColor="red" items={items} />
-              </Space>
+              {/* </Space> */}
             </ConfigProvider>
           </div>
         </div>
