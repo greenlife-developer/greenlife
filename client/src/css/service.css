@@ -40,6 +40,21 @@
     /* background: violet; */
 }
 
+.service .service-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service .btn-service-page{
+    padding: 15px 20px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+}
+
 .service .description p{
     font-size: 18px;
     margin-top: 10px;
@@ -63,6 +78,110 @@
     margin-right: 10px;
 }
 
+/* Clients forms input */
+
+.clients-form{
+    width: 80%;
+    margin-top: 380px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.clients-form h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.client-form-container{
+    /* background: red; */
+    margin: 30px;
+    /* width: 90%; */
+}
+
+.clients-details, .company, .project-name-scope{
+    box-shadow: 2px 2px 15px #ddd;
+    padding: 40px;
+}
+
+.clients-details input, .company input, .project-name-scope input{
+    /* background: orange; */
+    /* width: 100%; */
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-family: sans-serif;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.company select{
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.project-name-scope textarea{
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.clients-details label, .company label, .project-name-scope label{
+    /* background: orange; */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.form-field{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.agreement {
+    padding: 15px 0;
+}
+
+.agreement .agreement-field{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: start;
+    gap: 20px;
+}
+
+.agreement .agreement-field input{
+    width: 20px;
+    height: 20px;
+    outline: 0;
+}
+
+.agreement .agreement-field span{
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.submit input[type=submit]{
+    width: 180px;
+    background: #222;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+
+/* !Clients forms input */
+
+
 @media screen and (max-width: 430px){
     .service-page{
         margin-top: 80px;
@@ -75,5 +194,19 @@
     .service .service-grid{
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+
+    .clients-form{
+        width: 100%;
+        padding: 20px 5px;
+
+    }
+
+    .client-form-container{
+        margin: 5px;
+    }
+
+    .clients-details, .company, .project-name-scope{
+        padding: 30px 10px;
     }
 }

@@ -7,6 +7,7 @@ import Contact from "./components/contacts/Contact";
 import About from './components/student/About';
 import Courses from './components/student/course/Courses';
 import Trainers from './components/student/Trainers';
+import BookForm from './components/services/forms/BookForm';
 import Service from './components/services/Service';
 import 'remixicon/fonts/remixicon.css';
 import 'swiper/css/bundle';
@@ -38,6 +39,7 @@ export default function App() {
             <Route path="/courses" element={<Courses />} />
             <Route path="/trainers" element={<Trainers />} />
             <Route path="/services" element={<Service />} />
+            <Route path="/services/service/:id" element={<BookForm />} />
             
           </Routes>
         </Router>
