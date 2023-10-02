@@ -33,7 +33,7 @@ const ClientForm = () => {
             <div className="form-field">
               <label htmlFor="company size">Company Size</label>
               <select name="companySize" id="">
-                <option value="select">select</option>
+                <option value="">select</option>
                 <option value="1-5">1 - 5</option>
                 <option value="5-10">5 - 10</option>
                 <option value="10-50">10 - 50</option>
@@ -71,7 +71,7 @@ const ClientForm = () => {
                 <input type="checkbox" name="sendDetails" id="" required />
                 <span>
                   You will be required to send required details via email. You
-                  may chat the phone number that fill come with your project
+                  may chat the phone number that will come with your project
                   details on WhatsApp if you have futher comments on your
                   project.
                 </span>
