@@ -228,7 +228,6 @@ const messageTemplate = ({ name, message }) => {
              </div>
          </div>
      </body>
-     
      </html>
     `
 }
