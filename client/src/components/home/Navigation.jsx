@@ -30,9 +30,9 @@ export default function Navigation() {
               <li>
                 <NavLink to="/services">Services</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to="/blog">Blog</NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink to="/students">Students</NavLink>
               </li>

@@ -1,6 +1,6 @@
 import React from "react";
 import maestro from "../../images/projects/maestromarv.PNG";
-import invent from "../../images/projects/inventory.PNG";
+import invent from "../../images/projects/inventory.jpg";
 
 export default function Previous() {
   return (

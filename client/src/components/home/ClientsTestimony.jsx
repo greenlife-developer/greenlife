@@ -19,7 +19,7 @@ export default function ClientsTestimony() {
             img={testimony1}
             name="Onaolapo Marvelous"
             title="CEO, MaestroMarv Tech Solutions"
-            content="We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website. We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website."
+            content="GNLIFE built my company's web application, I reallt appreciate the team for a job well done"
           />
           <TestimonialItem
             img={testimony2}
@@ -27,15 +27,15 @@ export default function ClientsTestimony() {
             title="CEO, EYOB Agrochemicals"
             content="GNLIFE helped in developing the app that I use for taking the records of my daily sales and purchases. The app is so useful that I can easily access what I have in store both in figure and cash value."
           />
-          <TestimonialItem
+          {/* <TestimonialItem
             img={team3}
             name="Afolabi Opeyemi"
             title="CEO, GNLife"
             content="We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website. We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website."
-          />
+          /> */}
         </div>
 
-        <div className="testimonial-items items2">
+        {/* <div className="testimonial-items items2">
           <TestimonialItem
             img={team3}
             name="Afolabi Opeyemi"
@@ -48,7 +48,7 @@ export default function ClientsTestimony() {
             title="CEO, GNLife"
             content="We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website. We train students on HTML, CSS (grid and flexbox), Javascript, git and github, and how to host a static website."
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

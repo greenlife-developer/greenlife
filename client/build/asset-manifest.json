@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6d74c4a.css",
-    "main.js": "/static/js/main.125bbf71.js",
+    "main.css": "/static/css/main.c3343d74.css",
+    "main.js": "/static/js/main.bf6bb2ad.js",
     "static/media/remixicon.svg?t=1690730386070": "/static/media/remixicon.db77551b8efc76571c4f.svg",
     "static/media/baaa.png": "/static/media/baaa.0c65305d3a142f2bbb75.png",
-    "static/media/maestromarv.PNG": "/static/media/maestromarv.37c0ebdec57d1b407125.PNG",
     "static/media/team-1.png": "/static/media/team-1.be11951955be930ddf19.png",
     "static/media/remixicon.eot?t=1690730386070": "/static/media/remixicon.53ec05edb4b6864b45b1.eot",
     "static/media/remixicon.ttf?t=1690730386070": "/static/media/remixicon.4aa0fd158658e2a40e79.ttf",
@@ -12,17 +11,18 @@
     "static/media/team-3.jpg": "/static/media/team-3.8cfa37477f74ef3a140f.jpg",
     "static/media/hero-bg.jpg": "/static/media/hero-bg.8947f2200e2804d08f4d.jpg",
     "static/media/remixicon.woff?t=1690730386070": "/static/media/remixicon.affd60ca37df38cfee4f.woff",
+    "static/media/inventory.jpg": "/static/media/inventory.a374c1840ca0bc928469.jpg",
     "static/media/remixicon.woff2?t=1690730386070": "/static/media/remixicon.821a773710130bcf4674.woff2",
+    "static/media/maestromarv.PNG": "/static/media/maestromarv.ba99476845000f24780c.PNG",
     "static/media/testimony-2.jpg": "/static/media/testimony-2.aff731eafab13c42c17b.jpg",
-    "static/media/inventory.PNG": "/static/media/inventory.2e7e250b419a00f344cc.PNG",
     "static/media/apple-touch-icon.png": "/static/media/apple-touch-icon.2483adc29eb658ffcdb6.png",
     "static/media/testimony-1.jpg": "/static/media/testimony-1.ced7b5e9f14fafc8aca0.jpg",
     "index.html": "/index.html",
-    "main.b6d74c4a.css.map": "/static/css/main.b6d74c4a.css.map",
-    "main.125bbf71.js.map": "/static/js/main.125bbf71.js.map"
+    "main.c3343d74.css.map": "/static/css/main.c3343d74.css.map",
+    "main.bf6bb2ad.js.map": "/static/js/main.bf6bb2ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6d74c4a.css",
-    "static/js/main.125bbf71.js"
+    "static/css/main.c3343d74.css",
+    "static/js/main.bf6bb2ad.js"
   ]
 }
