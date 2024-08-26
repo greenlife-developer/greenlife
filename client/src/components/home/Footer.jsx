@@ -6,6 +6,9 @@ export default function Footer() {
       <div className="footer-items">
         <div className="item">
           <h1>Like to get in touch?</h1>
+          <p>
+            <a href="/amazon_afiliate_products">page</a>
+          </p>
           <div className="icons">
             <svg
               xmlns="http://www.w3.org/2000/svg"

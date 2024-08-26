@@ -1,0 +1,148 @@
+.amazon_affiliate_products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.amazon_affiliate_products h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.amazon_affiliate_products h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #444;
+  text-align: left;
+  width: 100%;
+}
+
+.amazon_affiliate_products p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #555;
+  line-height: 1.6;
+  text-align: left;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.product h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+.product p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #666;
+  text-align: center;
+  width: 100%;
+}
+
+.cta_button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta_button:hover {
+  background-color: #cc7a00;
+}
+
+.amazon_affiliate_products > p {
+  font-size: 1.4rem;
+  margin-top: 15px;
+  color: #222;
+  /* text-align: center; */
+}
+
+.amazon_affiliate_products > .cta_button {
+  margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+  .amazon_affiliate_products {
+    padding: 20px 10px;
+  }
+
+  .amazon_affiliate_products h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .amazon_affiliate_products h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  .amazon_affiliate_products p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .product {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .product h2 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+
+  .product p {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+
+  .cta_button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .amazon_affiliate_products > p {
+    font-size: 1.2rem;
+  }
+
+  .amazon_affiliate_products > .cta_button {
+    margin-top: 15px;
+  }
+}

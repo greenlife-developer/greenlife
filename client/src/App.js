@@ -19,6 +19,7 @@ import "./css/mediaq.css";
 import "./css/index.css";
 import "./css/service.css";
 import "./css/indexquery.css";
+import Products from './components/amazonProducts/Products';
 const helmetContext = {};
 
 
@@ -40,7 +41,7 @@ export default function App() {
             <Route path="/trainers" element={<Trainers />} />
             <Route path="/services" element={<Service />} />
             <Route path="/services/service/:id" element={<BookForm />} />
-            
+            <Route path="amazon_afiliate_products" element={<Products />} />
           </Routes>
         </Router>
       </HelmetProvider>
