@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6f89e68.css",
-    "main.js": "/static/js/main.99b0640e.js",
+    "main.css": "/static/css/main.89276f63.css",
+    "main.js": "/static/js/main.42435c8f.js",
     "static/media/remixicon.svg?t=1690730386070": "/static/media/remixicon.db77551b8efc76571c4f.svg",
     "static/media/baaa.png": "/static/media/baaa.0c65305d3a142f2bbb75.png",
     "static/media/team-1.png": "/static/media/team-1.be11951955be930ddf19.png",
@@ -18,11 +18,11 @@
     "static/media/apple-touch-icon.png": "/static/media/apple-touch-icon.2483adc29eb658ffcdb6.png",
     "static/media/testimony-1.jpg": "/static/media/testimony-1.ced7b5e9f14fafc8aca0.jpg",
     "index.html": "/index.html",
-    "main.c6f89e68.css.map": "/static/css/main.c6f89e68.css.map",
-    "main.99b0640e.js.map": "/static/js/main.99b0640e.js.map"
+    "main.89276f63.css.map": "/static/css/main.89276f63.css.map",
+    "main.42435c8f.js.map": "/static/js/main.42435c8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6f89e68.css",
-    "static/js/main.99b0640e.js"
+    "static/css/main.89276f63.css",
+    "static/js/main.42435c8f.js"
   ]
 }

@@ -1,0 +1,101 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.fiverr_gig_promotion {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* List styling */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+}
+
+ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Fiverr widget styling */
+.fiverr-seller-widget {
+  margin: 20px 0;
+}
+
+.fiverr-seller-content,
+#fiverr-widget-seller-data {
+  display: none;
+}
+
+/* Call to action button */
+.cta_button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff9900;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta_button:hover {
+  background-color: #e88e00;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .fiverr_gig_promotion {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p,
+  ul li {
+    font-size: 14px;
+  }
+
+  .cta_button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

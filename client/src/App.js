@@ -20,6 +20,7 @@ import "./css/index.css";
 import "./css/service.css";
 import "./css/indexquery.css";
 import Products from './components/amazonProducts/Products';
+import FiverrGigPage from './components/fiverr/FiverGigPage';
 const helmetContext = {};
 
 
@@ -41,7 +42,8 @@ export default function App() {
             <Route path="/trainers" element={<Trainers />} />
             <Route path="/services" element={<Service />} />
             <Route path="/services/service/:id" element={<BookForm />} />
-            <Route path="amazon_afiliate_products" element={<Products />} />
+            <Route path="/amazon_afiliate_products" element={<Products />} />
+            <Route path="/promoting_gig_page" element={<FiverrGigPage />} />
           </Routes>
         </Router>
       </HelmetProvider>

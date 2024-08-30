@@ -8,6 +8,7 @@ export default function Footer() {
           <h1>Like to get in touch?</h1>
           <p>
             <a href="/amazon_afiliate_products">page</a>
+            <a href="/promoting_gig_page">page2</a>
           </p>
           <div className="icons">
             <svg
